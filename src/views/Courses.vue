@@ -26,7 +26,9 @@
       h4.ui.header Playback二階體驗工作坊
         .sub.header 四種基本元素、五個基本形式
       img.card-img(src="/img/lev2.jpg")
-      p 九月教師節「心領神會」籌備中，有興趣的朋友請先空出09/28(六), 09/29(日)上午時段
+      p 課程規畫已完成，歡迎邀約協辦
+      p 洽詢email:
+        a(href="mailto:bestian@gmail.com") bestian@gmail.com
     .ui.card
       h4.ui.header Playback主持人體驗工作坊
         .sub.header 主持人技巧與態度
@@ -37,6 +39,8 @@
         .sub.header 穩定的持續練習節奏
       img.card-img(src="/img/group.jpg")
       p 每月一次，需先參與過初階課程，或具有Playback經驗且有認識的人引介。
+      p 洽詢email:
+        a(href="mailto:bestian@gmail.com") bestian@gmail.com
 
 </template>
 
