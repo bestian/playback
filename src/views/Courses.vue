@@ -15,10 +15,10 @@
     .ui.card
       h4.ui.header Playback-聆聽學習工作坊
         .sub.header Playback入門
-      router-link(to="/lev1")
-        img.card-img(src="/img/lev1.jpg")
+      img.card-img(src="/img/lev1.jpg")
+      // router-link(to="/lev1")
       // p 八月父親節「從心出發」已截止報名，進行中。
-      p 九月中秋節「從心出發」開放報名中(8/26截止)，
+      // p 九月中秋節「從心出發」開放報名中(8/26截止)，
         router-link(to="/lev1") 詳見此
       p.gray 十月華山文創場「從心出發」籌備中，有興趣的朋友請先空出10/26(六), 10/27(日)上午時段
       p.gray 十一月中壢夢田場「從心出發」籌備中，有興趣的朋友請先空出11/09(六), 11/10(日)上午時段
