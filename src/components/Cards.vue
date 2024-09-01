@@ -6,7 +6,7 @@
       transition-group(name="fade" tag="div" id="group")
         img.card-image(
           v-for="(card, index) in cards", 
-          :key="index", 
+          :key="card", 
           :src="`/img/keep-nuetral/${card}.webp`", 
           :alt="card", 
           v-show="randomCardIndex === index",
