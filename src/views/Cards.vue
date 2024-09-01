@@ -1,57 +1,57 @@
 <template lang="pug">
-.keep-neutral
-
-</template>
-
-<script>
-
-export default {
-  name: 'KeepNeutral',
-  data () {
-    return {
-      cards: [
-        '持守界限',
-        '放下評斷',
-        '活在當下',
-        '平靜心靈',
-        '接納不完美',
-        '尊重每個人',
-        '相信直覺',
-        '感恩每一天',
-        '放手過去',
-        '理解他人',
-        '信任自己',
-        '保持謙虛',
-        '欣賞當下',
-        '培養耐心',
-        '保持開放心態',
-        '不做假設',
-        '耐心等待',
-        '保持平衡',
-        '保持專注',
-        '善待自己',
-        '接受變化',
-        '不與人爭',
-        '放下執著',
-        '擁抱未知',
-        '保持沉穩',
-        '與自己和解',
-        '珍惜每個瞬間',
-        '坦然面對挑戰',
-        '學會放鬆',
-        '寧靜致遠',
-        '心平氣和',
-        '保持正念',
-        '不急不躁',
-        '享受孤獨',
-        '以靜制動',
-        '順其自然'
-      ]
+  .keep-neutral
+    .card-container
+      img.card-image(:src="imagePath", :alt="randomCard")
+      p.card-text {{ randomCard }}
+  </template>
+  
+  <script>
+  export default {
+    name: 'KeepNeutral',
+    data () {
+      return {
+        cards: [
+          '持守界限',
+          '放下評斷',
+          '活在當下',
+          // 其他卡片請在此添加
+        ],
+        randomCard: '', // 隨機選擇的卡片
+      }
+    },
+    computed: {
+      // 根據隨機選擇的卡片動態計算圖片路徑
+      imagePath() {
+        return `/img/${this.randomCard}.webp`;
+      }
+    },
+    methods: {
+      // 從cards陣列中隨機選擇一個卡片
+      getRandomCard() {
+        const randomIndex = Math.floor(Math.random() * this.cards.length);
+        this.randomCard = this.cards[randomIndex];
+      }
+    },
+    created() {
+      // 組件創建時隨機選擇卡片
+      this.getRandomCard();
     }
   }
-}
-</script>
-
-<style scoped>
-
-</style>
+  </script>
+  
+  <style scoped>
+  .card-container {
+    text-align: center;
+    margin: 20px;
+  }
+  .card-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+  .card-text {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  </style>
+  
