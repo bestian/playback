@@ -4,7 +4,8 @@
     h2.ui.header 
       span.fat-only 歡迎來到
       | 【從心出發】Playback劇場
-      .sub.header.left.aligned 「每個人的生命，都是可歌可泣的故事。
+      cards
+      //.sub.header.left.aligned 「每個人的生命，都是可歌可泣的故事。
         br
         | 可歌，是因為有力量；可泣，是因為有磨難。
         br
@@ -37,16 +38,23 @@
 </template>
 
 <script>
-import { announces } from '../data/announce.js'
+import { announces } from '../data/announce.js';
+import { cards } from '../data/cards.js';
+import Cards from '../components/Cards.vue';
+
 
 export default {
   name: 'HelloWorld',
   props: {
     msg: String
   },
+  components: {
+    Cards,
+  },
   data () {
     return {
-      announces: announces
+      announces: announces,
+      cards: cards
     }
   },
   methods: {

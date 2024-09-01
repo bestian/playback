@@ -59,6 +59,11 @@ Vue.use(VueRouter)
     path: '/book',
     name: 'Book',
     component: () => import('../views/Book.vue')
+  },
+  {
+    path: '/cards',
+    name: 'Cards',
+    component: () => import('../components/Cards.vue')
   }
 ]
 
