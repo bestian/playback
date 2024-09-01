@@ -85,7 +85,7 @@
   .card-text {
     font-size: 1.2em;
     margin-top: 10px;
-    padding-bottom: .8em;
+    padding-bottom: .36em;
     text-align: center;
   }
   </style>
