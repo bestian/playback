@@ -20,7 +20,11 @@
       // p 八月父親節「從心出發」已截止報名，進行中。
       // p 九月中秋節「從心出發」開放報名中(8/26截止)，
         router-link(to="/lev1") 詳見此
-      p.gray 十月華山文創場「從心出發」籌備中，有興趣的朋友請先空出10/26(六), 10/27(日)上午時段
+      router-link(to="/lev1") 
+        | 十月華山文創場「從心出發」開放報名中。
+        br 
+        | 時間為10/26(六), 10/27(日)上午9:00~12:00。
+
       p.gray 十一月中壢夢田場「從心出發」籌備中，有興趣的朋友請先空出11/09(六), 11/10(日)上午時段
     .ui.card
       h4.ui.header Playback二階體驗工作坊
@@ -71,7 +75,7 @@ img.card-img {
   padding: 1em !important;
 }
 
-p {
+a, p {
   font-size: 18px;
   text-align: left;
   max-width: 620px;

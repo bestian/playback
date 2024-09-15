@@ -17,7 +17,7 @@ export default {
   name: 'Faq',
   data () {
     return {
-      YourDocumentID: '16LKZp5C_CSvEQIwf1qRSyFFKmqyoUg6C7emHZ_ylKz4'
+      YourDocumentID: '1awCQ8pw6IwmaQ377ORxwpGpTmBdUsi_kQftwpCQpEoc'
     }
   }
 }
