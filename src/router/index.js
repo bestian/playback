@@ -56,6 +56,11 @@ Vue.use(VueRouter)
     component: () => import('../courses/Lev1.vue')
   },
   {
+    path: '/lev1_s',
+    name: 'Lev1_S',
+    component: () => import('../courses/Lev1_S.vue')
+  },
+  {
     path: '/book',
     name: 'Book',
     component: () => import('../views/Book.vue')
