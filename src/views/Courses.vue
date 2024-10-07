@@ -32,9 +32,10 @@
       h4.ui.header Playback二階體驗工作坊
         .sub.header 四種基本元素、五個基本形式
       img.card-img(src="/img/lev2.jpg")
-      p 課程規畫已完成，歡迎邀約協辦
-      p 洽詢email:
-        a(href="mailto:bestian@gmail.com") bestian@gmail.com
+      router-link(to="/lev2")
+        p 課程規畫已完成，歡迎邀約協辦
+        p 洽詢email:
+          a(href="mailto:bestian@gmail.com") bestian@gmail.com
     .ui.card
       h4.ui.header Playback主持人體驗工作坊
         .sub.header 主持人技巧與態度
