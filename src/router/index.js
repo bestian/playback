@@ -11,7 +11,7 @@ Vue.use(VueRouter)
     component: Home
   },
   {
-    path: '/about',
+    path: '/statues',
     name: 'Statues',
     component: () => import('../views/Statues.vue')
   },
@@ -44,6 +44,11 @@ Vue.use(VueRouter)
     path: '/courses',
     name: 'Courses',
     component: () => import('../views/Courses.vue')
+  },
+  {
+    path: '/about_me',
+    name: 'About_Me',
+    component: () => import('../views/About.vue')
   },
   {
     path: '/core',

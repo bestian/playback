@@ -14,7 +14,7 @@
 <script>
 
 export default {
-  name: 'Faq',
+  name: 'Lev1Course',
   data () {
     return {
       YourDocumentID: '1awCQ8pw6IwmaQ377ORxwpGpTmBdUsi_kQftwpCQpEoc'

@@ -5,9 +5,9 @@
       i.icon.bars
     router-link(class="item" to="/")
       i.home.icon
-    router-link.item(to="/core")
-      i.suitcase.icon
-      | 精華
+    router-link.item(to="/about_me")
+      i.user.icon
+      | 關於我
     router-link(class="item" to="/courses")
       i.users.icon
       | 課程
@@ -21,6 +21,9 @@
     router-link(class="item" to="/")
       i.home.icon
       | 首頁
+    router-link.item(to="/about_me")
+      i.user.icon
+      | 關於我
     router-link.item(to="/core")
       i.suitcase.icon
       | 精華
@@ -30,13 +33,16 @@
     router-link(class="item" to="/faq")
       i.info.icon
       | 常見問題
-    router-link(class="item" to="/about")
-      i.user.icon
+    router-link(class="item" to="/statues")
+      i.users.icon
       | 流動塑像
   .ui.sidebar.vertical.menu#side-menu(:class="{'hidden': !sidebarVisible}")
     router-link.item(to='/', exact='', name="home")
       i.home.icon
       | 首頁
+    router-link.item(to="/about_me")
+      i.user.icon
+      | 關於我
     router-link.item(to="/core")
       i.suitcase.icon
       | 精華
@@ -46,8 +52,8 @@
     router-link(class="item" to="/faq")
       i.info.icon
       | 常見問題
-    router-link(class="item" to="/about")
-      i.user.icon
+    router-link(class="item" to="/statues")
+      i.users.icon
       span 流動塑像
     router-link(class="item" to="/one_to_one")
       i.sync.icon
