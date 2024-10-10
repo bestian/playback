@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>手拉手遊戲</title>
+    <style>
+        canvas {
+            border: 1px solid black;
+            display: block;
+            margin: 20px auto;
+        }
+        #narration {
+            text-align: center;
+            font-size: 16px;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="narration">
+        <p><font size="24">【手勾手】</font></p>
+        <p>先站出來的演員擺出一隻彎曲的手，等著第二位也就是他的搭擋來勾住。
+        <p></p>勾住之後，先站出來的演員像流動塑像一樣，重覆一個動作和短句三次。唯一不同的是他同時要拉扯第二位站出來的演員。</p>
+        <p>接著，第二位位站出來的演員反向拉扯先站出來的演員，並站在相反的立場，重覆一個動作和短句三次。</p>
+        <p>來回各講三輪之後一起定格結凍。</p>
+    </div>
+    <canvas id="gameCanvas" width="600" height="400"></canvas>
+    <script>
+        const canvas = document.getElementById('gameCanvas');
+        const ctx = canvas.getContext('2d');
+
+        // 圓圈的屬性
+        let circle1 = {
+            x: 250,
+            y: 200,
+            radius: 40,
+            color: 'red',
+            dx: 0
+        };
+
+        let circle2 = {
+            x: 350,
+            y: 200,
+            radius: 40,
+            color: 'green',
+            dx: 0
+        };
+
+        let handLength = 0;
+        let pullDistance = 2;
+        let iterations = 6;
+        let currentIteration = 0;
+        let pullingLeft = true;
+        let tiredTextCount = 0;
+        let familyTextCount = 0;
+        let faceVisible = true; // 控制臉部是否可見
+        // 可修改的文字參數
+        const redCircleTexts = [
+            '我好累',
+            '這工作太勉強',
+            '真的不行了',
+            '我好累',
+            '這工作太勉強',
+            '真的不行了'
+        ];
+
+        const greenCircleTexts = [
+            '這份工作對我很重要',
+            '我要養家',
+            '我要融入社會',
+            '這份工作對我很重要',
+            '我要養家',
+            '我要融入社會'
+        ];
+        
+
+        // 畫出圓圈
+        function drawCircle(circle) {
+            ctx.beginPath();
+            ctx.arc(circle.x, circle.y, circle.radius, 0, Math.PI * 2);
+            ctx.fillStyle = circle.color;
+            ctx.fill();
+            ctx.closePath();
+        }
+
+        // 畫出手
+        function drawHand(circle, direction) {
+            ctx.beginPath();
+            ctx.moveTo(circle.x, circle.y);
+            if (direction === 'right') {
+                ctx.lineTo(circle.x + handLength, circle.y);
+            } else {
+                ctx.lineTo(circle.x - handLength, circle.y);
+            }
+            ctx.strokeStyle = circle.color;
+            ctx.stroke();
+            ctx.closePath();
+        }
+        // 畫出紅色圈的臉
+        function drawFace(circle) {
+            // 畫眼睛
+            ctx.beginPath();
+            ctx.arc(circle.x - 10, circle.y - 10, 2, 0, Math.PI * 2); // 左眼
+            ctx.arc(circle.x + 10, circle.y - 10, 2, 0, Math.PI * 2); // 右眼
+            ctx.fillStyle = 'black';
+            ctx.fill();
+            ctx.closePath();
+
+            // 畫微笑
+            ctx.beginPath();
+            ctx.arc(circle.x, circle.y + 5, 10, 0, Math.PI, false); // 微笑
+            ctx.strokeStyle = 'black';
+            ctx.stroke();
+            ctx.closePath();
+        }
+        // 畫出綠色圈的臉
+        function drawFace2(circle) {
+            // 畫眼睛
+            ctx.beginPath();
+            ctx.arc(circle.x - 10, circle.y - 10, 2, 0, Math.PI * 2); // 左眼
+            ctx.arc(circle.x + 10, circle.y - 10, 2, 0, Math.PI * 2); // 右眼
+            ctx.fillStyle = 'black';
+            ctx.fill();
+            ctx.closePath();
+
+            // 畫生氣
+            ctx.beginPath();
+            ctx.arc(circle.x, circle.y + 10, 20,Math.PI, 0, true); // 生氣的弧線
+            ctx.strokeStyle = 'black';
+            ctx.stroke();
+            ctx.closePath();
+        }
+
+        // 畫出文字
+        function drawText(text, x, y) {
+            ctx.fillStyle = 'black';
+            ctx.font = '20px Arial';
+            ctx.fillText(text, x, y);
+        }
+
+        // 當圓圈勾住後進行拉扯的動作
+        function pullAction() {
+            function pull() {
+                if (currentIteration < iterations) {
+                    if (pullingLeft) {
+                        circle1.dx = -pullDistance;
+                        circle2.dx = -pullDistance;
+                        tiredTextCount = 3; // 顯示「我好累」三次
+                    } else {
+                        circle1.dx = pullDistance;
+                        circle2.dx = pullDistance;
+                        familyTextCount = 3; // 顯示「我要養家」三次
+                    }
+
+                    let targetX = pullingLeft ? 50 : 550;
+                    let interval = setInterval(() => {
+                        circle1.x += circle1.dx;
+                        circle2.x += circle2.dx;
+                        if ((pullingLeft && circle1.x <= targetX) || (!pullingLeft && circle1.x >= targetX)) {
+                            clearInterval(interval);
+                            circle1.dx = 0;
+                            circle2.dx = 0;
+                            pullingLeft = !pullingLeft;
+                            currentIteration++;
+                            tiredTextCount = 0; // 清除「我好累」
+                            familyTextCount = 0; // 清除「我要養家」
+                            setTimeout(pull, 500);
+                        }
+                    }, 20);
+                }
+            }
+            pull();
+        }
+
+        // 遊戲主循環
+        function update() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            // 畫出紅色圈的臉
+  
+            // 畫出圓圈和手
+            drawCircle(circle1);
+            drawHand(circle1, 'right');
+            drawCircle(circle2);
+            drawHand(circle2, 'left');
+             // 畫出紅色圈的臉
+            drawFace2(circle1);
+            // 畫出文字
+            // 畫出文字
+            let redText = redCircleTexts[currentIteration] || '';
+            let greenText = greenCircleTexts[currentIteration] || '';
+
+            for (let i = 0; i < tiredTextCount; i++) {
+                drawText(redText, circle1.x - 10, circle1.y - 50 - i * 20);
+            }
+            for (let i = 0; i < familyTextCount; i++) {
+                drawText(greenText, circle2.x - 10, circle2.y - 50 - i * 20);
+            }
+
+            drawFace2(circle2);
+            requestAnimationFrame(update);
+        }
+
+        // 開始遊戲循環
+        update();
+
+        // 圓圈和手的出現動畫
+        function appearAnimation() {
+            let interval = setInterval(() => {
+                if (circle1.radius < 30) {
+                    circle1.radius += 1;
+                } else if (handLength < 50) {
+                    handLength += 2;
+                } else if (circle2.radius < 30) {
+                    circle2.radius += 1;
+                } else if (handLength < 100) {
+                    handLength += 2;
+                } else {
+                    faceVisible = true; // 圓圈完全出現後顯示臉
+                    clearInterval(interval);
+                    pullAction();
+                }
+            }, 50);
+        }
+        // 開始出現動畫
+        appearAnimation();
+    </script>
+</body>
+</html>
