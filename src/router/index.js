@@ -16,6 +16,11 @@ Vue.use(VueRouter)
     component: () => import('../views/Statues.vue')
   },
   {
+    path: '/hand_by_hand',
+    name: 'HandByHand',
+    component: () => import('../forms/HandByHand.vue')
+  },
+  {
     path: '/one_to_one',
     name: 'OneToOne',
     component: () => import('../views/OneToOne.vue')
