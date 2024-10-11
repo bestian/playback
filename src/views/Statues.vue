@@ -107,6 +107,13 @@ $primary-color: hsla(0,45%,50%,1);
   100% { transform: scale(1) }
 }
 
+@include keyFrames(murmur) {
+  0% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.2);
+    background-color: $primary-color; opacity: 0.7; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
 /* 塑像 */
 .shiftingStatue {
   animation: shiftingStatue 3s ease forwards 1, speak 3s ease forwards 1;
