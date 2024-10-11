@@ -50,11 +50,11 @@ Vue.use(VueRouter)
     name: 'Courses',
     component: () => import('../views/Courses.vue')
   },
-  {
+  /* {
     path: '/about_me',
     name: 'About_Me',
     component: () => import('../views/About.vue')
-  },
+  }, */
   {
     path: '/core',
     name: 'Core',

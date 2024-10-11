@@ -1,6 +1,6 @@
 <template lang="pug">
 .courses
-  h1.ui.header 小巴老師(唐宗浩)的故事
+  h1.ui.header 小巴老師的故事
     i.sub.header 「我們不能改變過去，
       br
       | 但是可以改變過去對我們的影響。」 - 薩提爾
