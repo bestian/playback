@@ -36,10 +36,13 @@
     router-link.item(to="/core")
       i.suitcase.icon
       | 精華
+    router-link(class="item" to="/book")
+      i.book.icon
+      | 相關書籍
     router-link(class="item" to="/faq")
       i.info.icon
       | 常見問題
-    router-link(class="item" to="/statues")
+    // router-link(class="item" to="/statues")
       i.users.icon
       | 流動塑像
   .ui.sidebar.vertical.menu#side-menu(:class="{'hidden': !sidebarVisible}")
@@ -175,6 +178,10 @@ p {
   visibility: hidden;
   transition: all 0s linear !important;
   transform: translateX(-100%); /* 隱藏時向左滑動 */
+}
+
+.filler {
+  flex: 1;
 }
 
 </style>
