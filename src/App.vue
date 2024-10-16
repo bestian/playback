@@ -11,6 +11,9 @@
     router-link(class="item" to="/courses")
       i.users.icon
       | 課程
+    router-link(class="item" to="/act_history")
+      i.redo.icon
+      | 活動回顧
     router-link(class="item" to="/faq")
       i.info.icon
       | 問題
@@ -24,12 +27,15 @@
     // router-link.item(to="/about_me")
       i.user.icon
       | 關於我
-    router-link.item(to="/core")
-      i.suitcase.icon
-      | 精華
     router-link(class="item" to="/courses")
       i.users.icon
       | 課程
+    router-link(class="item" to="/act_history")
+      i.redo.icon
+      | 活動回顧
+    router-link.item(to="/core")
+      i.suitcase.icon
+      | 精華
     router-link(class="item" to="/faq")
       i.info.icon
       | 常見問題
@@ -49,6 +55,9 @@
     router-link(class="item" to="/courses")
       i.users.icon
       | 課程
+    router-link(class="item" to="/act_history")
+      i.redo.icon
+      | 活動回顧
     router-link(class="item" to="/faq")
       i.info.icon
       | 常見問題

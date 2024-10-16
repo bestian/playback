@@ -11,6 +11,11 @@ Vue.use(VueRouter)
     component: Home
   },
   {
+    path: '/act_history',
+    name: 'Act_History',
+    component: () => import('../views/Act_History.vue')
+  },
+  {
     path: '/statues',
     name: 'Statues',
     component: () => import('../views/Statues.vue')
