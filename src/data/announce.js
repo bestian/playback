@@ -1,7 +1,7 @@
 export const announces = [
     {
         date: '2024-10-04',
-        text: '十一月中壢夢田場初階工作坊【從心出發】11/09, 11/10開放報名中。',
+        text: '十一月中壢夢田場初階工作坊【從心出發】11/09, 11/10開放報名中。(10/31截止)',
         h: 'https://docs.google.com/document/d/124oPKnQxmJ_hfXJzs2j96K1fUd7SUPxA2_k-GNm5E7Q/edit?usp=sharing'
     },
     //{date: '2024-09-16',
