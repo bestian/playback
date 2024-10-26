@@ -49,18 +49,19 @@
 
 
     cards
+  
+    p
+      | 洽詢Email：
+      a(href="mailto:bestian@gmail.com") bestian@gmail.com
+    p
+      | FB粉專：
+      a(href="https://www.facebook.com/profile.php?id=61563399543167", target="_blank", rel="noopener norefferer") 從心出發Playback劇場
 
     //  a.ui.large.green.button(href="https://line.me/ti/g/6n2qAsibyY", target="_blank", rel="noopener norefferer") 【從心出發】Line群組
 
     // img.qr(src="../assets/heart_playback_qr.jpeg")
     // audio#background-music(src="/Shiva.m4a", autoplay, loop)
   
-  p
-    | 洽詢Email：
-    a(href="mailto:bestian@gmail.com") bestian@gmail.com
-  p
-    | FB粉專：
-    a(href="https://www.facebook.com/profile.php?id=61563399543167", target="_blank", rel="noopener norefferer") 從心出發Playback劇場
 </template>
 
 <script>
@@ -129,11 +130,6 @@ p {
   max-width: 680px;
   margin: 0 auto;
 }
-
-p::first-letter {
-  font-size: 1.6em;
-}
-
 
 p.announce::first-letter {
   font-size: 1em;
