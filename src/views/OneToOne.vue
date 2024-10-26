@@ -1,8 +1,6 @@
 <template>
   <div class="about">
-    <h1>
-        <span class = "fat-only">一對對
-        </span>
+    <h1 class = "ui header">一對對
     </h1>
     <p>
       一對對的練習，是從心出發Playback劇場的基礎練習。
