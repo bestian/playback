@@ -19,7 +19,11 @@
           .header 2024/10/26(六), 2024/10/27(日)
             .sub.header 華山文創園區
           .description 光復節後Playback初階體驗工作坊
-          
+      //  .item
+      //  .content
+      //    .header 2024/11/17(日)
+      //      .sub.header 萬隆聖家會
+      //    .description 2024Playback成長團體第二次聚會
 
 </template>
 
