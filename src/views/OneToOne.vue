@@ -3,13 +3,13 @@
     <h1>
         <span class = "fat-only">一對對
         </span>
-        <span v-if = "myF.n">{{myF.n}}</span>
     </h1>
-    <p v-if ="myF.d">
-        {{myF.d}}
-    </p>
-    <p v-if ="myF.g">
-        呈現{{myF.g}}
+    <p>
+      一對對的練習，是從心出發Playback劇場的基礎練習。
+      <br/>
+      它包含四種基本型態：背靠背、手勾手、面對面、下對上。
+      <br/>
+      每種型態都有其獨特的結構和要求，讓參與者能夠探索和表達內心的衝突和情感。
     </p>
     <div class="ui vertical buttons thin-only">
         <a class="ui green button" v-for = "f in forms" :key="f.n" @click = "myF = f" :class = "{active: myF.css == f.css}">{{f.n}}</a>
