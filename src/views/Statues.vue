@@ -1,9 +1,7 @@
 <template>
   <div class="about">
-    <h1>
-        <span class = "fat-only">流動塑像
-        </span>
-        <span v-if = "myF.n">{{myF.n}}</span>
+    <h1 class="ui header">
+      流動塑像
     </h1>
     <p v-if ="myF.d">
         {{myF.d}}

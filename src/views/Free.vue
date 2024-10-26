@@ -1,8 +1,7 @@
 <template lang="pug">
 .about
   .ui.segment.container
-    h1
-      span 自由呈現
+    h1.ui.header 自由呈現
     p 「自由呈現」是一種可以呈現較重故事的形式。
     p(v-if="myF.d") {{ myF.d }}
 
