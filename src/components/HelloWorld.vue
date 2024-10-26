@@ -47,6 +47,7 @@
     p 這是一份相互分享的珍貴禮物，在Playback劇場的尊重與包容裡，共創安全的支持空間，能讓所有參與者充份體驗真實生命經驗交會的感動。❤️‍
     
 
+
     cards
 
     //  a.ui.large.green.button(href="https://line.me/ti/g/6n2qAsibyY", target="_blank", rel="noopener norefferer") 【從心出發】Line群組
@@ -54,6 +55,12 @@
     // img.qr(src="../assets/heart_playback_qr.jpeg")
     // audio#background-music(src="/Shiva.m4a", autoplay, loop)
   
+  p
+    | 洽詢Email：
+    a(href="mailto:bestian@gmail.com") bestian@gmail.com
+  p
+    | FB粉專：
+    a(href="https://www.facebook.com/profile.php?id=61563399543167", target="_blank", rel="noopener norefferer") 從心出發Playback劇場
 </template>
 
 <script>
@@ -133,4 +140,3 @@ p.announce::first-letter {
 }
 
 </style>
-  
