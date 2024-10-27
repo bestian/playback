@@ -46,7 +46,7 @@
       | 5. 家族系統排列的排列師有嚴謹的證照制度；Playback鼓勵素人參與，主持人當然也需要技巧和專業，但沒有相關的證照制度。
 
     h3.ui.header 如果您想提出其他的問題，歡迎email至
-      a(href='mailto:"bestian@gamil.com"') bestian@gamil.com
+      a(href='mailto:"bestian@gmail.com"') bestian@gmail.com
       | 提問喔~
 
 </template>
