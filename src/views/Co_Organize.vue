@@ -12,11 +12,11 @@
             .item 單次三小時體驗工作坊
             .item 兩次(三小時+三小時)體驗工作坊
             .item 八週(每週一次三小時)連續深度體驗工作坊
-      .item 預計參與人數及講師 + 助教費預算(推廣價)，不含場租
-      .ui.ordered.left.aligned.list
-        .item 4~8人(5000/次)
-        .item 9~16人(8000/次)
-        .item 17~32人(12000/次)
+        .item 預計參與人數及講師 + 助教費預算(推廣價)，不含場租
+          .ui.ordered.left.aligned.list
+            .item 4~8人(5000/次)
+            .item 9~16人(8000/次)
+            .item 17~32人(12000/次)
           
       p 聯絡方式(電子郵件)：bestian@gmail.com
   </template>
