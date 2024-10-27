@@ -11,6 +11,11 @@ Vue.use(VueRouter)
     component: Home
   },
   {
+    path: '/co_organize',
+    name: 'CoOrganize',
+    component: () => import('../views/Co_Organize.vue')
+  },
+  {
     path: '/act_history',
     name: 'Act_History',
     component: () => import('../views/Act_History.vue')

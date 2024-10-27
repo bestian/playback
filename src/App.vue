@@ -99,6 +99,10 @@
     a.item(href="https://www.threads.net/@bestian_t")
       i.linkify.icon
       | Threads連結
+    router-link.item(to="/co_organize")
+      i.users.icon
+      | 協辦
+      span.fat-only 工作坊
 </template>
 
 <script>
@@ -200,7 +204,7 @@ p {
 }
 
 footer.ui.fixed.bottom.menu.green {
-  background-color: #9f9 !important;
+  background-color: rgb(250, 186, 74) !important;
   top: auto;
   bottom: 0;
 }
