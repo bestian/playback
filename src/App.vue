@@ -13,7 +13,8 @@
       | 課程
     router-link(class="item" to="/act_history")
       i.redo.icon
-      | 活動回顧
+      span.fat-only 活動
+      |回顧
     router-link(class="item" to="/faq")
       i.info.icon
       | 問題
@@ -84,6 +85,17 @@
       span 相關書籍
   .ui.sidebar.bg(:class="{'hidden': !sidebarVisible}", @click="toggleSidebar")
   router-view
+  .spacer
+  footer.ui.fixed.bottom.menu.green
+    a.item(href="mailto:bestian@gmail.com")
+      i.mail.icon
+      span.fat-only bestian@gmail.com
+    a.item(href="https://www.facebook.com/profile.php?id=61563399543167", target="_blank", rel="noopener norefferer")
+      i.facebook.icon
+      | FB粉專
+    a.item(href="https://www.threads.net/@bestian_t")
+      i.linkify.icon
+      | Threads連結
 </template>
 
 <script>
@@ -182,6 +194,16 @@ p {
 
 .filler {
   flex: 1;
+}
+
+footer.ui.fixed.bottom.menu.green {
+  background-color: #9f9 !important;
+  top: auto;
+  bottom: 0;
+}
+
+.spacer {
+  height: 50px;
 }
 
 </style>
