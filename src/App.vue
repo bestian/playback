@@ -11,7 +11,10 @@
     router-link(class="item" to="/courses")
       i.users.icon
       | 課程
-    router-link(class="item" to="/act_history")
+    router-link.item(to="/core")
+      i.suitcase.icon
+      | 精華
+    //router-link(class="item" to="/act_history")
       i.redo.icon
       span.fat-only 活動
       |回顧

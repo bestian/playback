@@ -2,6 +2,9 @@
 .courses
   h1.ui.header Playback精華
     .sub.header 深入瞭解Playback同理心回饋劇
+  a.ui.purple.button(href="https://docs.google.com/document/d/17lp1gGyKwxt8gU64gMlOwPE-_p5lQeWaZ-8g8T7KsDU/edit?usp=sharing", target="_blank", rel="noopener norefferer")
+    i.file.pdf.icon
+    | Google文件檢視
   .ui.segmant.container
     iframe(width="100%", 
       height="600px",
