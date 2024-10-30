@@ -1,24 +1,7 @@
 <template lang="pug">
 .hello
   .ui.segment.container
-    iframe.thin-only(src="https://docs.google.com/presentation/d/1yP9zCer_5hOyJ4_xb06395_IqAeKlpfjFL2bnyD0PQQ/embed?start=true&loop=true&delayms=3000" 
-      frameborder="0" 
-      width="320" 
-      height="240" 
-      allow="autoplay"
-      autoplay="true"
-      allowfullscreen="true" 
-      mozallowfullscreen="true" 
-      webkitallowfullscreen="true")
-    iframe.fat-only(src="https://docs.google.com/presentation/d/1yP9zCer_5hOyJ4_xb06395_IqAeKlpfjFL2bnyD0PQQ/embed?start=true&loop=true&delayms=3000" 
-      frameborder="0" 
-      width="640" 
-      height="480" 
-      allow="autoplay"
-      autoplay="true"
-      allowfullscreen="true" 
-      mozallowfullscreen="true" 
-      webkitallowfullscreen="true")
+    cards
     h2.ui.header 
       // span.fat-only 歡迎來到
       // | 【從心出發】Playback劇場
@@ -47,8 +30,6 @@
     p 這是一份相互分享的珍貴禮物，在Playback劇場的尊重與包容裡，共創安全的支持空間，能讓所有參與者充份體驗真實生命經驗交會的感動。❤️‍
     
 
-
-    cards
   
     //  a.ui.large.green.button(href="https://line.me/ti/g/6n2qAsibyY", target="_blank", rel="noopener norefferer") 【從心出發】Line群組
 

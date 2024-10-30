@@ -17,7 +17,7 @@ export default {
   name: 'Lev1Course',
   data () {
     return {
-      YourDocumentID: '1awCQ8pw6IwmaQ377ORxwpGpTmBdUsi_kQftwpCQpEoc'
+      YourDocumentID: '13xauwSwg4mGcRON6S46ngJhICxtnKnufXBm-Sl8hWMg'
     }
   }
 }

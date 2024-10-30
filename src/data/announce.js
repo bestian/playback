@@ -1,13 +1,14 @@
 export const announces = [
     {
-        date: '2024-10-28',
-        text: '十二月初階工作坊【從心出發】12/08, 12/15籌備中：有興趣的朋友請先空出12/08, 12/15上午時段',
+        date: '2024-11-01',
+        text: '十二月【從心出發】工作坊12/08, 12/15開放報名中(12/01截止)',
+        h: 'https://docs.google.com/forms/d/e/1FAIpQLSdMXu3CwEDuDSrSBpzr5CffpuQAmfMlyZhkmd562tz7iLJQZQ/viewform'
     },
-    {
-        date: '2024-10-04',
-        text: '十一月中壢夢田場初階工作坊【從心出發】11/09, 11/10開放報名中。(10/31截止)',
-        h: 'https://docs.google.com/document/d/124oPKnQxmJ_hfXJzs2j96K1fUd7SUPxA2_k-GNm5E7Q/edit?usp=sharing'
-    },
+    //{
+    //    date: '2024-10-04',
+    //    text: '十一月中壢夢田場初階工作坊【從心出發】11/09, 11/10開放報名中。(10/31截止)',
+    //    h: 'https://docs.google.com/document/d/124oPKnQxmJ_hfXJzs2j96K1fUd7SUPxA2_k-GNm5E7Q/edit?usp=sharing'
+    //},
     //{date: '2024-09-16',
     //    text: '十月華山文創場初階工作坊【從心出發】10/26, 10/27開放報名中(10/17截止)',
     //    h: 'https://docs.google.com/forms/d/e/1FAIpQLSftyf6mdf2iX0Q-Pa57XoZ3n_9qasVM1p20ZcA8PSy-Pdwh5A/viewform?usp=sf_link'

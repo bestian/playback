@@ -2,6 +2,25 @@
 .courses
   h1.ui.header Playback精華
     .sub.header 深入瞭解Playback同理心回饋劇
+  iframe.thin-only(src="https://docs.google.com/presentation/d/1yP9zCer_5hOyJ4_xb06395_IqAeKlpfjFL2bnyD0PQQ/embed?start=true&loop=true&delayms=3000" 
+    frameborder="0" 
+    width="320" 
+    height="240" 
+    allow="autoplay"
+    autoplay="true"
+    allowfullscreen="true" 
+    mozallowfullscreen="true" 
+    webkitallowfullscreen="true")
+  iframe.fat-only(src="https://docs.google.com/presentation/d/1yP9zCer_5hOyJ4_xb06395_IqAeKlpfjFL2bnyD0PQQ/embed?start=true&loop=true&delayms=3000" 
+    frameborder="0" 
+    width="640" 
+    height="480" 
+    allow="autoplay"
+    autoplay="true"
+    allowfullscreen="true" 
+    mozallowfullscreen="true" 
+    webkitallowfullscreen="true")
+  br
   a.ui.purple.button(href="https://docs.google.com/document/d/17lp1gGyKwxt8gU64gMlOwPE-_p5lQeWaZ-8g8T7KsDU/edit?usp=sharing", target="_blank", rel="noopener norefferer")
     i.file.pdf.icon
     | Google文件檢視
