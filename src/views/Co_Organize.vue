@@ -16,7 +16,7 @@
           .ui.ordered.left.aligned.list
             .item 4~8人(5000/次)
             .item 9~16人(8000/次)
-            .item 17~32人(12000/次)
+            .item 17~24人(12000/次)
           
       p 聯絡方式(電子郵件)：bestian@gmail.com
   </template>
