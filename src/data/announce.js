@@ -1,9 +1,9 @@
 export const announces = [
-    {
-        date: '2024-11-01',
-        text: '十二月【從心出發】工作坊12/08, 12/15開放報名中(12/01截止)',
-        h: 'https://docs.google.com/forms/d/e/1FAIpQLSdMXu3CwEDuDSrSBpzr5CffpuQAmfMlyZhkmd562tz7iLJQZQ/viewform'
-    },
+    //{
+    //    date: '2024-11-01',
+    //    text: '十二月【從心出發】工作坊12/08, 12/15開放報名中(12/01截止)',
+    //    h: 'https://docs.google.com/forms/d/e/1FAIpQLSdMXu3CwEDuDSrSBpzr5CffpuQAmfMlyZhkmd562tz7iLJQZQ/viewform'
+    //},
     //{
     //    date: '2024-10-04',
     //    text: '十一月中壢夢田場初階工作坊【從心出發】11/09, 11/10開放報名中。(10/31截止)',
