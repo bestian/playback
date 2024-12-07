@@ -76,7 +76,6 @@ export default {
 
 .hello {
   color: rgb(64, 3, 206);
-  height: 100vh;
   padding-top: 2em;
 }
 
