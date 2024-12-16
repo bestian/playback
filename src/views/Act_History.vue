@@ -8,7 +8,7 @@
         .content
           .header 2024/08/08(四), 2024/08/22(四)
             .sub.header 永安藝文中心
-          .description 父親節Playback初階體驗工作坊
+          .description 從心出發Playback初階體驗工作坊
       .item
         .content
           .header 2024/10/06(日)
@@ -18,12 +18,17 @@
         .content
           .header 2024/10/26(六), 2024/10/27(日)
             .sub.header 華山文創園區
-          .description 光復節後Playback初階體驗工作坊
+          .description 從心出發Playback初階體驗工作坊
       .item
         .content
           .header 2024/12/01(日)
             .sub.header 華山文創園區
           .description 2024Playback成長團體第二次聚會
+      .item
+        .content
+          .header 2024/12/08(日), 2024/12/15(日)
+            .sub.header 永安藝文中心
+          .description 從心出發Playback初階體驗工作坊
 
 </template>
 
