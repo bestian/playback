@@ -204,7 +204,7 @@ p {
 }
 
 footer.ui.fixed.bottom.menu.green {
-  background-color: rgb(250, 186, 74) !important;
+  background-color: rgb(213, 255, 228) !important;
   top: auto;
   bottom: 0;
 }
