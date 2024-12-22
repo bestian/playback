@@ -3,6 +3,8 @@
   .ui.segment.container
     h1.ui.header 活動回顧
     h2.left.aligned.ui.header 2024年
+    h3.ui.header 參考
+      a(href="https://github.com/bestian/playback/wiki/2024%E5%AD%B8%E5%93%A1%E5%BF%83%E5%BE%97", target="_blank", rel="noopener noreferrer") 2024學員心得
     .ui.list
       .item
         .content
