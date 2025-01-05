@@ -51,7 +51,9 @@
       p 每月一次，需先參與過初階課程，或具有Playback經驗且有認識的人引介。
       p 洽詢email:
         a(href="mailto:bestian@gmail.com") bestian@gmail.com
-
+  .ui.divider
+  router-link.ui.large.green.button(to="/core", @click="trackEvent('internal_link', '/courses')") 瞭解更多
+    i.chevron.right.icon
 </template>
 
 <script>

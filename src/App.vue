@@ -5,9 +5,9 @@
       i.icon.bars
     router-link(class="item" to="/")
       i.home.icon
-    //router-link.item(to="/about_me")
+    router-link.item(to="/about_me")
       i.user.icon
-      | 關於我
+      | 關於
     router-link(class="item" to="/courses")
       i.users.icon
       | 課程
@@ -18,7 +18,7 @@
       i.redo.icon
       span.fat-only 活動
       |回顧
-    router-link(class="item" to="/faq")
+    //router-link(class="item" to="/faq")
       i.info.icon
       | 問題
   .ui.labeled.icon.menu.fat-only
@@ -28,7 +28,7 @@
     router-link(class="item" to="/")
       i.home.icon
       | 首頁
-    // router-link.item(to="/about_me")
+    router-link.item(to="/about_me")
       i.user.icon
       | 關於我
     router-link(class="item" to="/courses")
@@ -40,7 +40,7 @@
     router-link.item(to="/core")
       i.suitcase.icon
       | 精華
-    router-link(class="item" to="/book")
+    //router-link(class="item" to="/book")
       i.book.icon
       | 相關書籍
     router-link(class="item" to="/faq")
@@ -53,7 +53,7 @@
     router-link.item(to='/', exact='', name="home")
       i.home.icon
       | 首頁
-    // router-link.item(to="/about_me")
+    router-link.item(to="/about_me")
       i.user.icon
       | 關於我
     router-link.item(to="/core")
@@ -96,7 +96,7 @@
     a.item(href="https://www.facebook.com/profile.php?id=61563399543167", target="_blank", rel="noopener norefferer")
       i.facebook.icon
       | FB粉專
-    a.item(href="https://www.threads.net/@bestian_t")
+    // a.item(href="https://www.threads.net/@bestian_t")
       i.linkify.icon
       | Threads連結
     router-link.item(to="/co_organize")
@@ -117,6 +117,14 @@ export default {
   methods: {
     toggleSidebar() {
       this.sidebarVisible = !this.sidebarVisible
+    }
+  },
+  watch: {
+    $route() {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      })
     }
   }
 }

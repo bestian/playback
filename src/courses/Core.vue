@@ -2,21 +2,21 @@
 .courses
   h1.ui.header Playback精華
     .sub.header 深入瞭解Playback同理心回饋劇
-  iframe.thin-only(src="https://docs.google.com/presentation/d/1yP9zCer_5hOyJ4_xb06395_IqAeKlpfjFL2bnyD0PQQ/embed?start=true&loop=true&delayms=3000" 
+  iframe.thin-only(src="https://docs.google.com/presentation/d/1yP9zCer_5hOyJ4_xb06395_IqAeKlpfjFL2bnyD0PQQ/embed?start=false&loop=true&delayms=3000" 
     frameborder="0" 
     width="320" 
     height="240" 
     allow="autoplay"
-    autoplay="true"
+    autoplay="false"
     allowfullscreen="true" 
     mozallowfullscreen="true" 
     webkitallowfullscreen="true")
-  iframe.fat-only(src="https://docs.google.com/presentation/d/1yP9zCer_5hOyJ4_xb06395_IqAeKlpfjFL2bnyD0PQQ/embed?start=true&loop=true&delayms=3000" 
+  iframe.fat-only(src="https://docs.google.com/presentation/d/1yP9zCer_5hOyJ4_xb06395_IqAeKlpfjFL2bnyD0PQQ/embed?start=false&loop=true&delayms=3000" 
     frameborder="0" 
     width="640" 
     height="480" 
     allow="autoplay"
-    autoplay="true"
+    autoplay="false"
     allowfullscreen="true" 
     mozallowfullscreen="true" 
     webkitallowfullscreen="true")
