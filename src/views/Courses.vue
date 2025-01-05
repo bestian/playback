@@ -15,7 +15,14 @@
     .ui.card
       h4.ui.header Playback-聆聽學習工作坊
         .sub.header Playback入門
-      img.card-img(src="/img/lev1.jpg")
+
+      router-link(to="/lev1")
+        img.card-img(src="/img/lev1.jpg")
+      router-link(to="/lev1")
+        p 課程規畫已完成，歡迎邀約協辦
+        p 洽詢email:
+          a(href="mailto:bestian@gmail.com") bestian@gmail.com
+
       // router-link(to="/lev1")
       // p 八月父親節「從心出發」已截止報名，進行中。
       // p 九月中秋節「從心出發」開放報名中(8/26截止)，

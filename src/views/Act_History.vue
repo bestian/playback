@@ -26,7 +26,7 @@
         .item 
           .content
             .header 2025/01/06(一)
-              .sub.header 癌友陪伴協會
+              .sub.header 癌友新生命協會
             .description Playback初階體驗工作坊
     //- 2024年的內容
     .ui.tab(:class="{ active: activeTab === '2024' }")

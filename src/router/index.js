@@ -73,17 +73,12 @@ Vue.use(VueRouter)
   {
     path: '/lev2',
     name: 'Lev2',
-    component: () => import('../courses/Lev2.vue')
+    component: () => import('../courses/Lev2_template.vue')
   },
   {
     path: '/lev1',
     name: 'Lev1',
-    component: () => import('../courses/Lev1.vue')
-  },
-  {
-    path: '/lev1_s',
-    name: 'Lev1_S',
-    component: () => import('../courses/Lev1_S.vue')
+    component: () => import('../courses/Lev1_template.vue')
   },
   {
     path: '/book',
