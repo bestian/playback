@@ -1,6 +1,6 @@
 export const announces = [
     {   date: '2025-01-10',
-        text: '三月【用心聆聽】初階+二階工作坊03/16(日), 03/22(六), 03/23(日)開放報名中(03/06截止報名)',
+        text: '三月【用心聆聽】初階+二階工作坊03/16(日), 03/22(六), 03/23(日)開放報名中(01/21截止報名)',
         h: 'https://docs.google.com/forms/d/e/1FAIpQLSdKYdpxtXCjMzgPnI4jJtmKbWVjJFd8R5U_0dnB-jqon3I4QQ/viewform?usp=dialog'
     }
     
