@@ -96,6 +96,10 @@
     a.item(href="https://www.facebook.com/profile.php?id=61563399543167", target="_blank", rel="noopener norefferer")
       i.facebook.icon
       | FB粉專
+    a.item(href="https://glitterdusthouse.blogspot.com/", target="_blank", rel="noopener norefferer")
+      i.edit.icon
+      | 光塵屋
+      span.fat-only -個人部落格
     // a.item(href="https://www.threads.net/@bestian_t")
       i.linkify.icon
       | Threads連結
