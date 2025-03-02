@@ -50,7 +50,10 @@
       h4.ui.header Playback主持人體驗工作坊
         .sub.header 主持人技巧與態度
       img.card-img(src="/img/lev3.jpg")
-      p 尚未開課...
+      router-link(to="/lev3")
+        p 課程規畫已完成，歡迎邀約協辦
+        p 洽詢email:
+          a(href="mailto:bestian@gmail.com") bestian@gmail.com
     .ui.card
       h4.ui.header 長線成長團體
         .sub.header 穩定的持續練習節奏

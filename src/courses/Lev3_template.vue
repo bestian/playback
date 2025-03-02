@@ -1,6 +1,6 @@
 <template lang="pug">
 .courses
-  h1.ui.header Playback二階體驗工作坊
+  h1.ui.header Playback三階體驗工作坊
     .sub.header 四種基本元素、五個基本形式
   .ui.segmant.container
     iframe(width="100%", 

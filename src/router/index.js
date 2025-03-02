@@ -71,6 +71,11 @@ Vue.use(VueRouter)
     component: () => import('../courses/Core.vue')
   },
   {
+    path: '/lev3',
+    name: 'Lev3',
+    component: () => import('../courses/Lev3_template.vue')
+  },
+  {
     path: '/lev2',
     name: 'Lev2',
     component: () => import('../courses/Lev2_template.vue')
