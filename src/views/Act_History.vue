@@ -38,6 +38,12 @@
             .header 2025/03/02(日)
               .sub.header 華山文創園區
             .description 2025Playback成長團體第三次聚會
+        .item
+          .content
+            .header 2025/03/16(日), 2025/03/22(六), 2025/03/23(日)
+              .sub.header 華山文創園區
+            .description 「用心聆聽」Playback初階+二階體驗工作坊
+      
     //- 2024年的內容
     .ui.tab(:class="{ active: activeTab === '2024' }")
       h2.left.aligned.ui.header 2024年
