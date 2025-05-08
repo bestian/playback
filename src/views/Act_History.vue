@@ -25,7 +25,7 @@
         
         .item 
           .content
-            .header 2025/01/06(一)
+            .header 2025/01/06(一), 2025/01/13(一)
               .sub.header 癌友新生命協會
             .description Playback初階體驗工作坊
         .item
@@ -48,7 +48,11 @@
             .header 2025/04/13(日)
               .sub.header 華山文創園區
             .description 2025Playback成長團體第四次聚會
-            
+        .item
+          .content
+            .header 2025/04/21(一), 2025/05/05(一)
+              .sub.header 癌友新生命協會
+            .description Playback二階工作坊    
     //- 2024年的內容
     .ui.tab(:class="{ active: activeTab === '2024' }")
       h2.left.aligned.ui.header 2024年
