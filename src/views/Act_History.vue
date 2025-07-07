@@ -61,13 +61,13 @@
         .item
           .content
             .header 2025/06/08(日)
-              .sub.header 聖家會
+              .sub.header 萬隆聖家會
             .description 2025「聆聽學習社」第六次聚會
         .item
           .content
             .header 2025/07/06(日)
               .sub.header 華山文創小時光共好空間
-            .description 2025標第七次聚會
+            .description 2025「聆聽學習社」第七次聚會
     //- 2024年的內容
     .ui.tab(:class="{ active: activeTab === '2024' }")
       h2.left.aligned.ui.header 2024年

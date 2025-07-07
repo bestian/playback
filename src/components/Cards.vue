@@ -90,10 +90,16 @@ export default {
   }
   
   .card-text {
-    font-size: 1.2em;
+    font-size: 1.6em;
     margin-top: 10px;
     padding-bottom: .36em;
     text-align: center;
+  }
+
+  @media (max-width: 768px) {
+    .card-text {
+      font-size: 1.2em;
+    }
   }
   
   /* 過場效果 */
