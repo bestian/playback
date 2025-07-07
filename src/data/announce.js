@@ -1,7 +1,7 @@
 export const announces = [
     {
         date: '2025-07-07',
-        text: '八月【一心一心】特別場08/08整天，開放報名中(08/01截止)',
+        text: '八月【一心一意】特別場08/08整天，開放報名中(08/01截止)',
         h: 'https://docs.google.com/document/d/11fWGDmdG7BDRJyQ7KGDI9Im6iG0U1sCaAh8RZaP8Y7Q/edit?usp=sharing'
     }
     //{   date: '2025-01-10',
