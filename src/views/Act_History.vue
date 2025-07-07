@@ -20,8 +20,8 @@
         .item
           .content
             .header 2025/01/05(日)
-              .sub.header 華山文創園區
-            .description 2025Playback成長團體第一次聚會
+              .sub.header 華山文創小時光共好空間
+            .description 2025「聆聽學習社」第一次聚會
         
         .item 
           .content
@@ -31,23 +31,23 @@
         .item
           .content
             .header 2025/02/09(日)
-              .sub.header 華山文創園區
-            .description 2025Playback成長團體第二次聚會
+              .sub.header 華山文創小時光共好空間
+            .description 2025「聆聽學習社」第二次聚會
         .item
           .content
             .header 2025/03/02(日)
-              .sub.header 華山文創園區
-            .description 2025Playback成長團體第三次聚會
+              .sub.header 華山文創小時光共好空間
+            .description 2025「聆聽學習社」第三次聚會
         .item
           .content
             .header 2025/03/16(日), 2025/03/22(六), 2025/03/23(日)
-              .sub.header 華山文創園區
+              .sub.header 華山文創小時光共好空間
             .description 「用心聆聽」Playback初階+二階體驗工作坊
         .item
           .content
             .header 2025/04/13(日)
-              .sub.header 華山文創園區
-            .description 2025Playback成長團體第四次聚會
+              .sub.header 華山文創小時光共好空間
+            .description 2025「聆聽學習社」第四次聚會
         .item
           .content
             .header 2025/04/21(一), 2025/05/05(一)
@@ -56,8 +56,18 @@
         .item
           .content
             .header 2025/05/11(日)
-              .sub.header 華山文創園區
-            .description 2025Playback成長團體第五次聚會
+              .sub.header 華山文創小時光共好空間
+            .description 2025「聆聽學習社」第五次聚會
+        .item
+          .content
+            .header 2025/06/08(日)
+              .sub.header 聖家會
+            .description 2025「聆聽學習社」第六次聚會
+        .item
+          .content
+            .header 2025/07/06(日)
+              .sub.header 華山文創小時光共好空間
+            .description 2025標第七次聚會
     //- 2024年的內容
     .ui.tab(:class="{ active: activeTab === '2024' }")
       h2.left.aligned.ui.header 2024年
@@ -72,18 +82,18 @@
         .item
           .content
             .header 2024/10/06(日)
-              .sub.header 華山文創園區
-            .description 2024Playback成長團體第一次聚會
+              .sub.header 華山文創小時光共好空間
+            .description 2024「聆聽學習社」第一次聚會
         .item
           .content
             .header 2024/10/26(六), 2024/10/27(日)
-              .sub.header 華山文創園區
+              .sub.header 華山文創小時光共好空間
             .description 從心出發Playback初階體驗工作坊
         .item
           .content
             .header 2024/12/01(日)
-              .sub.header 華山文創園區
-            .description 2024Playback成長團體第二次聚會
+              .sub.header 華山文創小時光共好空間
+            .description 2024「聆聽學習社符第二次聚會
         .item
           .content
             .header 2024/12/08(日), 2024/12/15(日)
