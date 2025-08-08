@@ -68,6 +68,11 @@
             .header 2025/07/06(日)
               .sub.header 華山文創小時光共好空間
             .description 2025「聆聽學習社」第七次聚會
+        .item
+          .content
+            .header 2025/08/08(五)
+              .sub.header 華山文創小時光共好空間
+            .description 「一心一意」生活中的即興劇場
     //- 2024年的內容
     .ui.tab(:class="{ active: activeTab === '2024' }")
       h2.left.aligned.ui.header 2024年

@@ -1,9 +1,5 @@
 export const announces = [
-    {
-        date: '2025-07-07',
-        text: '八月【一心一意】特別場08/08整天，開放報名中(08/01截止)',
-        h: 'https://docs.google.com/document/d/11fWGDmdG7BDRJyQ7KGDI9Im6iG0U1sCaAh8RZaP8Y7Q/edit?usp=sharing'
-    }
+    // 8/8活動已移至歷史活動頁面
     //{   date: '2025-01-10',
     //    text: '三月【用心聆聽】初階+二階工作坊03/16(日), 03/22(六), 03/23(日)開放報名中(03/10截止報名)',
     //    h: 'https://docs.google.com/forms/d/e/1FAIpQLSdKYdpxtXCjMzgPnI4jJtmKbWVjJFd8R5U_0dnB-jqon3I4QQ/viewform?usp=dialog'
