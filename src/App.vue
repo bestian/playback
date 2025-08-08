@@ -11,8 +11,8 @@
     router-link(class="item" to="/courses")
       i.users.icon
       | 課程
-    router-link(class="item" to="/performance")
-      i.theater.masks.icon
+    //router-link(class="item" to="/performance")
+      i.play.circle.icon
       | 演出邀約
     router-link.item(to="/core")
       i.suitcase.icon
@@ -37,8 +37,8 @@
     router-link(class="item" to="/courses")
       i.users.icon
       | 課程
-    router-link(class="item" to="/performance")
-      i.theater.masks.icon
+    // router-link(class="item" to="/performance")
+      i.play.circle.icon
       | 演出邀約
     router-link(class="item" to="/act_history")
       i.redo.icon
