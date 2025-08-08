@@ -11,6 +11,9 @@
     router-link(class="item" to="/courses")
       i.users.icon
       | 課程
+    router-link(class="item" to="/performance")
+      i.theater.masks.icon
+      | 演出邀約
     router-link.item(to="/core")
       i.suitcase.icon
       | 精華
@@ -34,6 +37,9 @@
     router-link(class="item" to="/courses")
       i.users.icon
       | 課程
+    router-link(class="item" to="/performance")
+      i.theater.masks.icon
+      | 演出邀約
     router-link(class="item" to="/act_history")
       i.redo.icon
       | 活動回顧
@@ -93,7 +99,7 @@
     a.item(href="mailto:bestian@gmail.com")
       i.mail.icon
       span.fat-only bestian@gmail.com
-    a.item(href="https://www.facebook.com/profile.php?id=61563399543167", target="_blank", rel="noopener norefferer")
+    // a.item(href="https://www.facebook.com/profile.php?id=61563399543167", target="_blank", rel="noopener norefferer")
       i.facebook.icon
       | FB粉專
     a.item(href="https://blog.bestian.tw/", target="_blank", rel="noopener norefferer")
@@ -103,6 +109,7 @@
     // a.item(href="https://www.threads.net/@bestian_t")
       i.linkify.icon
       | Threads連結
+    // 新增"演出邀約"頁面，並在這裡連結過去
     router-link.item(to="/co_organize")
       i.users.icon
       | 協辦
