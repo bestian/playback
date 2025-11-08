@@ -100,12 +100,12 @@
       i.mail.icon
       span.fat-only bestian@gmail.com
     // a.item(href="https://www.facebook.com/profile.php?id=61563399543167", target="_blank", rel="noopener norefferer")
-      i.facebook.icon
-      | FB粉專
-    a.item(href="https://blog.bestian.tw/", target="_blank", rel="noopener norefferer")
-      i.edit.icon
-      | 小巴的週記
-      span.fat-only -個人部落格
+    //  i.facebook.icon
+    //  | FB粉專
+    //a.item(href="https://blog.bestian.tw/", target="_blank", rel="noopener norefferer")
+    //  i.edit.icon
+    //  | 小巴的週記
+    //  span.fat-only -個人部落格
     // a.item(href="https://www.threads.net/@bestian_t")
       i.linkify.icon
       | Threads連結
