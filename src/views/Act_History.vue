@@ -70,6 +70,11 @@
             .description 2025「聆聽學習社」第七次聚會
         .item
           .content
+            .header 2025/08/03(日)
+              .sub.header 華山文創小時光共好空間
+            .description 2025「聆聽學習社」第八次聚會
+        .item
+          .content
             .header 2025/08/08(五)
               .sub.header 華山文創小時光共好空間
             .description 「一心一意」生活中的即興劇場
@@ -77,7 +82,19 @@
           .content
             .header 2025/09/08(日)
               .sub.header 小碧潭站附近瑜伽教室
-            .description 2025「聆聽學習社」第八次聚會
+            .description 2025「聆聽學習社」第九次聚會
+        .item
+          .content
+            .header 2025/10/18(日)
+              .sub.header 華山文創小時光共好空間
+            .description 2025「聆聽學習社」第十次聚會
+        .item
+          .content
+            .header 2025/11/02(日)
+              .sub.header 小碧潭站附近瑜伽教室
+            .description 2025「聆聽學習社」第十一次聚會
+
+
     //- 2024年的內容
     .ui.tab(:class="{ active: activeTab === '2024' }")
       h2.left.aligned.ui.header 2024年
