@@ -64,6 +64,16 @@
   .ui.divider
   router-link.ui.large.green.button(to="/core", @click="trackEvent('internal_link', '/courses')") 瞭解更多
     i.chevron.right.icon
+  .ui.divider
+  h2.ui.header 填寫連絡表
+  iframe(
+    src="https://docs.google.com/forms/d/e/1FAIpQLSddDqm40ruSCkr0w_4DIcWBnn2SQrAqxmvYKnOsgfvUOUDhwA/viewform?embedded=true"
+    width="100%"
+    height="800"
+    frameborder="0"
+    marginheight="0"
+    marginwidth="0"
+  ) 載入中…
 </template>
 
 <script>
