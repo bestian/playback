@@ -7,10 +7,27 @@
     
     //- 添加分頁按鈕
     .ui.secondary.menu
+      a.item(:class="{ active: activeTab === '2026' }", @click="activeTab = '2026'") 2026年
       a.item(:class="{ active: activeTab === '2025' }", @click="activeTab = '2025'") 2025年
       a.item(:class="{ active: activeTab === '2024' }", @click="activeTab = '2024'") 2024年
     
     .ui.divider
+
+
+    //- 2026年的內容
+    .ui.tab(:class="{ active: activeTab === '2026' }")
+      h2.left.aligned.ui.header 2026年
+      .ui.list
+        .item
+          .content
+            .header 2026/02/01(一)
+              .sub.header 瑜伽教室
+            .description Playback月聚會
+        .item
+          .content
+            .header 2026/03/01(一)
+              .sub.header 瑜伽教室
+            .description Playback月聚會
     //- 2025年的內容
     .ui.tab(:class="{ active: activeTab === '2025' }")
       h2.left.aligned.ui.header 2025年
@@ -134,7 +151,7 @@ export default {
   name: 'Act_History',
   data() {
     return {
-      activeTab: '2025'  // 預設顯示2025年
+      activeTab: '2026'  // 預設顯示2026年
     }
   }
 }
