@@ -3,12 +3,46 @@
     <h1 class = "ui header">一對對
     </h1>
     <p>
-      一對對的練習，是從心出發Playback劇場的基礎練習。
-      <br/>
-      它包含四種基本型態：背靠背、手勾手、面對面、下對上。
-      <br/>
-      每種型態都有其獨特的結構和要求，讓參與者能夠探索和表達內心的衝突和情感。
+      一對一對（簡稱一對對）是用來呈現說故事的人的內在衝突。我們時常會有內在矛盾，像是內心的拉扯和小劇場。
     </p>
+    <p>
+      比方說一個人在考慮要不要離職休息一陣子，他可能會有兩邊不同的內在聲音。
+    </p>
+    <p>
+      一邊是希望離職的，例如：「我好累、我好累、我好累」、「這工作太勉強、這工作太勉強、這工作太勉強」
+    </p>
+    <p>
+      另一邊是希望留下的，例如：「這份工作對我很重要、這份工作對我很重要、這份工作對我很重要」，「我要養家、我要養家、我要養家」
+    </p>
+    <p>
+      演員們，如果有四位的話，先走出一位。
+    </p>
+    <p>
+      先走來的人決定子型式和他扮演的面向。
+    </p>
+    <p>
+      <strong>一對一對常見的子型式有四種</strong>（如果不好記，用前三種也就夠了）：
+    </p>
+    <p>
+      <strong>手勾手：</strong><br>
+      先站出來的演員擺出一隻彎曲的手，等著第二位也就是他的搭擋來勾住。勾住之後，先站出來的演員像流動塑像一樣，重覆一個動作和短句三次。唯一不同的是他同時要拉扯第二位站出來的演員。
+    </p>
+    <p>
+      接著，第二位站出來的演員反向拉扯先站出來的演員，並站在相反的立場，重覆一個動作和短句三次。
+    </p>
+    <p>
+      來回各講三輪之後一起定格結凍。
+    </p>
+    <p>
+      <strong>背靠背：</strong>先出來的人往前一站。後出來的人站在他的背後。
+    </p>
+    <p>
+      <strong>面對面：</strong>先出來的人往斜前方走位，面向一側。後出來的人站在他的對面。
+    </p>
+    <p>
+      <strong>下對上：</strong>先出來的人往下一蹲。後出來的人站在他的背後。
+    </p>
+    <hr class="ui divider">
     <div class="ui vertical buttons thin-only">
         <a class="ui green button" v-for = "f in forms" :key="f.n" @click = "myF = f" :class = "{active: myF.css == f.css}">{{f.n}}</a>
     </div>
@@ -68,6 +102,16 @@ export default {
 </script>
 
 <style lang="scss" scoped="">
+
+p {
+  text-align: left;
+  font-size: 16px !important;
+  white-space: pre-line !important;
+  padding: 0 1em !important;
+  line-height: 1.8 !important;
+  max-width: 620px !important;
+  margin: 1em auto !important;
+}
 
 $primary-color: hsla(0,45%,50%,1);
 

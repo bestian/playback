@@ -21,6 +21,11 @@ Vue.use(VueRouter)
     component: () => import('../views/Act_History.vue')
   },
   {
+    path: '/forms',
+    name: 'Forms',
+    component: () => import('../views/Forms.vue')
+  },
+  {
     path: '/statues',
     name: 'Statues',
     component: () => import('../views/Statues.vue')

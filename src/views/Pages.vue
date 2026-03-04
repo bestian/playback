@@ -3,13 +3,21 @@
     <h1>
         <span class = "fat-only">一頁頁
         </span>
-        <span v-if = "myF.n">{{myF.n}}</span>
     </h1>
-    <p v-if ="myF.d">
-        {{myF.d}}
+    <p>
+      一頁一頁（簡稱一頁頁）像故事書翻頁一樣。
     </p>
-    <p v-if ="myF.g">
-        呈現{{myF.g}}
+    <p>
+      這是用來呈現起承轉合，比較有軸線的故事。
+    </p>
+    <p>
+      主持人將故事切成「四到七頁」。每頁用一個短句代表。
+    </p>
+    <p>
+      當主持人說出短句的時候，所有演員一起向前踏前一步做出一個姿勢，然後就定格。
+    </p>
+    <p>
+      演員不說話，單純當表演動作，同時出發，之後一起定格成為塑像。
     </p>
     <div class="ui buttons">
         <a class="ui green button" v-for = "f in forms" :key="f.n" @click = "myF = f" :class = "{active: myF.css == f.css}">{{f.n}}</a>
@@ -44,6 +52,17 @@ export default {
 </script>
 
 <style lang="scss" scoped="">
+
+
+p {
+  text-align: left;
+  font-size: 16px !important;
+  white-space: pre-line !important;
+  padding: 0 1em !important;
+  line-height: 1.8 !important;
+  max-width: 620px !important;
+  margin: 1em auto !important;
+}
 
 $step-one: 33px;
 $step-two: 66px;

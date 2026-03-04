@@ -8,22 +8,25 @@
     // router-link.item(to="/about_me")
     //  i.user.icon
     //  | 關於
+    router-link(class="item" to="/forms")
+      i.th.icon
+      span 形式
     router-link(class="item" to="/courses")
       i.users.icon
-      | 課程
+      span 課程
     //router-link(class="item" to="/performance")
       i.play.circle.icon
       | 演出邀約
     router-link.item(to="/core")
       i.suitcase.icon
-      | 精華
+      span 精華
       
-    router-link(class="item" to="/act_history")
-      i.redo.icon
-      span 回顧
+    //router-link(class="item" to="/act_history")
+    //  i.redo.icon
+    //  span 回顧
     //router-link(class="item" to="/faq")
-      i.info.icon
-      | 問題
+    //  i.info.icon
+    //  span 問題
   .ui.labeled.icon.menu.fat-only
     button.no-border.ui.item(@click="toggleSidebar")
       i.icon.bars
@@ -31,6 +34,9 @@
     router-link(class="item" to="/")
       i.home.icon
       | 首頁
+    router-link(class="item" to="/forms")
+      i.th.icon
+      span 形式
     //router-link.item(to="/about_me")
     //  i.user.icon
     //  | 關於我
@@ -52,9 +58,6 @@
     router-link(class="item" to="/faq")
       i.info.icon
       | 常見問題
-    router-link(class="item" to="/statues")
-      i.users.icon
-      | 流動塑像
   .ui.sidebar.vertical.menu#side-menu(:class="{'hidden': !sidebarVisible}")
     router-link.item(to='/', exact='', name="home")
       i.home.icon
@@ -62,21 +65,21 @@
     //router-link.item(to="/about_me")
     //  i.user.icon
     //  | 關於我
-    router-link.item(to="/core")
-      i.suitcase.icon
-      | 精華
+    router-link(class="item" to="/forms")
+      i.th.icon
+      span 基本形式
     router-link(class="item" to="/courses")
       i.users.icon
       | 課程
+    router-link.item(to="/core")
+      i.suitcase.icon
+      | 精華
     router-link(class="item" to="/act_history")
       i.redo.icon
       | 活動回顧
     router-link(class="item" to="/faq")
       i.info.icon
       | 常見問題
-    router-link(class="item" to="/statues")
-      i.users.icon
-      span 流動塑像
     router-link(class="item" to="/one_to_one")
       i.sync.icon
       span 一對對
