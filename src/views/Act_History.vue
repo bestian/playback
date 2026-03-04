@@ -20,14 +20,14 @@
       .ui.list
         .item
           .content
-            .header 2026/02/01(一)
+            .header 2026/02/01(日)
               .sub.header 瑜伽教室
-            .description Playback月聚會
+            .description 2026「聆聽學習社」第一次聚會
         .item
           .content
-            .header 2026/03/01(一)
+            .header 2026/03/01(日)
               .sub.header 瑜伽教室
-            .description Playback月聚會
+            .description 2026「聆聽學習社」第二次聚會
     //- 2025年的內容
     .ui.tab(:class="{ active: activeTab === '2025' }")
       h2.left.aligned.ui.header 2025年

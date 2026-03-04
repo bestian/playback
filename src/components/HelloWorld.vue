@@ -38,6 +38,18 @@
     h2.ui.header 本站QR Code
 
     img.qr(src="../assets/qr-playback.png")
+
+    .ui.divider
+
+    h2.ui.header 從心出發Playback即興劇場聯絡表
+    iframe(
+      src="https://docs.google.com/forms/d/e/1FAIpQLSddDqm40ruSCkr0w_4DIcWBnn2SQrAqxmvYKnOsgfvUOUDhwA/viewform?usp=sharing&ouid=109123650148645242011&embedded=true"
+      width="100%"
+      height="800"
+      frameborder="0"
+      marginheight="0"
+      marginwidth="0"
+    ) 載入中…
   
     //  a.ui.large.green.button(href="https://line.me/ti/g/6n2qAsibyY", target="_blank", rel="noopener norefferer") 【從心出發】Line群組
 
