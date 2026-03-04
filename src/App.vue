@@ -5,9 +5,9 @@
       i.icon.bars
     router-link(class="item" to="/")
       i.home.icon
-    router-link.item(to="/about_me")
-      i.user.icon
-      | 關於
+    // router-link.item(to="/about_me")
+    //  i.user.icon
+    //  | 關於
     router-link(class="item" to="/courses")
       i.users.icon
       | 課程
@@ -17,10 +17,10 @@
     router-link.item(to="/core")
       i.suitcase.icon
       | 精華
-    //router-link(class="item" to="/act_history")
+      
+    router-link(class="item" to="/act_history")
       i.redo.icon
-      span.fat-only 活動
-      |回顧
+      span 回顧
     //router-link(class="item" to="/faq")
       i.info.icon
       | 問題
@@ -31,21 +31,21 @@
     router-link(class="item" to="/")
       i.home.icon
       | 首頁
-    router-link.item(to="/about_me")
-      i.user.icon
-      | 關於我
+    //router-link.item(to="/about_me")
+    //  i.user.icon
+    //  | 關於我
     router-link(class="item" to="/courses")
       i.users.icon
       | 課程
     // router-link(class="item" to="/performance")
       i.play.circle.icon
       | 演出邀約
-    router-link(class="item" to="/act_history")
-      i.redo.icon
-      | 活動回顧
     router-link.item(to="/core")
       i.suitcase.icon
       | 精華
+    router-link(class="item" to="/act_history")
+      i.redo.icon
+      | 活動回顧
     //router-link(class="item" to="/book")
       i.book.icon
       | 相關書籍
