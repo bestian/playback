@@ -43,6 +43,11 @@
           path(d="M30 85 Q50 65 70 85" fill="#c2185b")
         span 自由呈現
 
+
+    .ui.divider
+    router-link.ui.large.green.button(to="/courses", @click="trackEvent('internal_link', '/courses')") 瞭解更多
+      i.chevron.right.icon
+
 </template>
 
 <script>

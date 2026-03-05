@@ -1,7 +1,7 @@
 <template lang="pug">
 .courses
   h1.ui.header Playback精華
-    .sub.header 深入瞭解Playback同理心回饋劇
+    .sub.header 深入瞭解Playback即興劇場
   iframe.thin-only(src="https://docs.google.com/presentation/d/1yP9zCer_5hOyJ4_xb06395_IqAeKlpfjFL2bnyD0PQQ/embed?start=false&loop=true&delayms=3000" 
     frameborder="0" 
     width="320" 
