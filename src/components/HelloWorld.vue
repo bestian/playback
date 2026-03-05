@@ -31,7 +31,7 @@
     br
     p 這是一份相互分享的珍貴禮物，在Playback即興劇場的尊重與包容裡，共創安全的支持空間，能讓所有參與者充份體驗真實生命經驗交會的感動。❤️‍
     br
-    router-link.ui.large.green.button(to="/forms", @click="trackEvent('internal_link', '/forms')") 瞭解更多
+    router-link.ui.large.green.button(to="/warmups", @click="trackEvent('internal_link', '/warmups')") 瞭解更多
       i.chevron.right.icon
     .ui.divider
 

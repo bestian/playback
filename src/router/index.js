@@ -99,6 +99,66 @@ Vue.use(VueRouter)
     path: '/cards',
     name: 'Cards',
     component: () => import('../components/Cards.vue')
+  },
+  {
+    path: '/warmups',
+    name: 'Warmups',
+    component: () => import('../views/Warmups.vue')
+  },
+  {
+    path: '/warmup/release',
+    name: 'W01Release',
+    component: () => import('../views/warmups/W01_Release.vue')
+  },
+  {
+    path: '/warmup/sculpture',
+    name: 'W02Sculpture',
+    component: () => import('../views/warmups/W02_Sculpture.vue')
+  },
+  {
+    path: '/warmup/relay',
+    name: 'W03Relay',
+    component: () => import('../views/warmups/W03_Relay.vue')
+  },
+  {
+    path: '/warmup/exaggerate',
+    name: 'W04Exaggerate',
+    component: () => import('../views/warmups/W04_Exaggerate.vue')
+  },
+  {
+    path: '/warmup/hypnosis',
+    name: 'W05Hypnosis',
+    component: () => import('../views/warmups/W05_Hypnosis.vue')
+  },
+  {
+    path: '/warmup/chair',
+    name: 'W06Chair',
+    component: () => import('../views/warmups/W06_Chair.vue')
+  },
+  {
+    path: '/warmup/drag',
+    name: 'W07Drag',
+    component: () => import('../views/warmups/W07_Drag.vue')
+  },
+  {
+    path: '/warmup/harmony',
+    name: 'W08Harmony',
+    component: () => import('../views/warmups/W08_Harmony.vue')
+  },
+  {
+    path: '/warmup/poetry',
+    name: 'W09Poetry',
+    component: () => import('../views/warmups/W09_Poetry.vue')
+  },
+  {
+    path: '/warmup/drawing',
+    name: 'W10Drawing',
+    component: () => import('../views/warmups/W10_Drawing.vue')
+  },
+  {
+    path: '/warmup/dragon',
+    name: 'W11Dragon',
+    component: () => import('../views/warmups/W11_Dragon.vue')
   }
 ]
 

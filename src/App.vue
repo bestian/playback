@@ -8,19 +8,22 @@
     // router-link.item(to="/about_me")
     //  i.user.icon
     //  | 關於
+    router-link(class="item" to="/warmups")
+      i.fire.icon
+      span 暖身
     router-link(class="item" to="/forms")
       i.th.icon
       span 形式
-    router-link(class="item" to="/courses")
-      i.users.icon
-      span 課程
+    //router-link(class="item" to="/courses")
+    //  i.users.icon
+    //  span 課程
     //router-link(class="item" to="/performance")
-      i.play.circle.icon
-      | 演出邀約
+    //  i.play.circle.icon
+    //  | 演出邀約
     router-link.item(to="/core")
       i.suitcase.icon
       span 精華
-      
+
     //router-link(class="item" to="/act_history")
     //  i.redo.icon
     //  span 回顧
@@ -34,6 +37,9 @@
     router-link(class="item" to="/")
       i.home.icon
       | 首頁
+    router-link(class="item" to="/warmups")
+      i.fire.icon
+      | 暖身
     router-link(class="item" to="/forms")
       i.th.icon
       span 形式
@@ -65,6 +71,9 @@
     //router-link.item(to="/about_me")
     //  i.user.icon
     //  | 關於我
+    router-link(class="item" to="/warmups")
+      i.fire.icon
+      | 暖身活動
     router-link(class="item" to="/forms")
       i.th.icon
       span 基本形式
