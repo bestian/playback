@@ -2,16 +2,18 @@
 .hello
   .ui.segment.container
     h2.ui.header
-      span.fat-only 歡迎一起
+      span.fat-only 您好，歡迎來到
+       | 【鏡照工坊】即興劇場
+      br
+       |
+      span.fat-only 一起
       span 說故事、聽故事、演故事
-    cards
-      // span.fat-only 歡迎來到
-      // | 【從心出發】Playback劇場
-      //.sub.header.left.aligned 「每個人的生命，都是可歌可泣的故事。
+
+      .sub.header.left.aligned 「每個人的生命，都是可歌可泣的故事。
         br
         | 可歌，是因為有力量；可泣，是因為有磨難。
         br
-        | 聆聽自我，面對真實，專注當下，生命便會成長」-- 小巴
+        | 聆聽彼此，面對真實，專注當下，生命便會成長」-- 小巴
     h2.ui.header(v-show="announces && announces.length > 0") 最新消息
     p.announce(v-for="(a, idx) in announces")
       a(v-if="a.h", :href="a.h", target="_blank", rel="noopener norefferer", @click="trackEvent('external_link', a.h)") {{a.date}}：
@@ -41,7 +43,7 @@
 
     .ui.divider
 
-    h2.ui.header 從心出發Playback即興劇場聯絡表
+    h2.ui.header 【鏡照工坊】Playback即興劇場聯絡表
     iframe(
       src="https://docs.google.com/forms/d/e/1FAIpQLSddDqm40ruSCkr0w_4DIcWBnn2SQrAqxmvYKnOsgfvUOUDhwA/viewform?usp=sharing&ouid=109123650148645242011&embedded=true"
       width="100%"
