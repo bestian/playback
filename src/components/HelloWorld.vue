@@ -3,10 +3,8 @@
   .ui.segment.container
     h2.ui.header
       span.fat-only 您好，歡迎來到
-       | 【鏡照工坊】即興劇場
+      span 【鏡照工坊】即興劇場
       br
-       |
-      span.fat-only 一起
       span 說故事、聽故事、演故事
 
       .sub.header.left.aligned 「每個人的生命，都是可歌可泣的故事。
@@ -14,6 +12,7 @@
         | 可歌，是因為有力量；可泣，是因為有磨難。
         br
         | 聆聽彼此，面對真實，專注當下，生命便會成長」-- 小巴
+      cards
     h2.ui.header(v-show="announces && announces.length > 0") 最新消息
     p.announce(v-for="(a, idx) in announces")
       a(v-if="a.h", :href="a.h", target="_blank", rel="noopener norefferer", @click="trackEvent('external_link', a.h)") {{a.date}}：
