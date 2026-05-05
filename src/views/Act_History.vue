@@ -28,6 +28,16 @@
             .header 2026/03/01(日)
               .sub.header 瑜伽教室
             .description 2026「聆聽學習社」第二次聚會
+        .item
+          .content
+            .header 2026/04/19(日)
+              .sub.header 景美聖家會
+            .description 2026「聆聽學習社」第三次聚會
+        .item
+          .content
+            .header 2026/05/3(日)
+              .sub.header 小船254潛水艇空間
+            .description 2026「聆聽學習社」第四次聚會
     //- 2025年的內容
     .ui.tab(:class="{ active: activeTab === '2025' }")
       h2.left.aligned.ui.header 2025年
