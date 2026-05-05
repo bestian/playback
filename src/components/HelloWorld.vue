@@ -22,8 +22,9 @@
       span(v-else)  {{a.date}}：
         b {{ a.text }} 
     .ui.vertical.buttons
-      router-link.ui.large.purple.button(to="/core", @click="trackEvent('external_link', 'Google Doc')") Playback精華
+      router-link.ui.large.orange.button(to="/warmups", @click="trackEvent('internal_link', '/warmups')") 暖身活動
       router-link.ui.large.pink.button(to="/forms", @click="trackEvent('internal_link', '/forms')") 基本形式
+      router-link.ui.large.purple.button(to="/core", @click="trackEvent('external_link', 'Google Doc')") Playback精華
       router-link.ui.large.blue.button(to="/faq", @click="trackEvent('internal_link', '/faq')") 常見問題FAQ
       // a.ui.black.button(href="https://www.threads.net/@bestian_t", target="_blank", rel="noopener norefferer", @click="trackEvent('external_link', 'Threads')") @Threads上新動態 
     
