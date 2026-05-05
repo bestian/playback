@@ -159,6 +159,11 @@ Vue.use(VueRouter)
     path: '/warmup/dragon',
     name: 'W11Dragon',
     component: () => import('../views/warmups/W11_Dragon.vue')
+  },
+  {
+    path: '/warmup/pillar',
+    name: 'W12Pillar',
+    component: () => import('../views/warmups/W12_Pillar.vue')
   }
 ]
 

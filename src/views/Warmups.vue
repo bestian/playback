@@ -168,6 +168,24 @@
           circle(cx="50" cy="67" r="3" fill="#e67e22")
         span 噴火龍
 
+      router-link.form-card(to="/warmup/pillar")
+        svg(viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg")
+          //- 充電柱：兩根柱子＋閃電＋奔跑的人
+          rect(x="15" y="40" width="10" height="50" rx="2" fill="#3498db")
+          ellipse(cx="20" cy="40" rx="7" ry="3" fill="#2980b9")
+          rect(x="75" y="40" width="10" height="50" rx="2" fill="#e74c3c")
+          ellipse(cx="80" cy="40" rx="7" ry="3" fill="#c0392b")
+          //- 中央閃電（充電意象）
+          polygon(points="45,25 58,25 50,40 60,40 42,62 50,46 38,46" fill="#f1c40f" stroke="#f39c12" stroke-width="0.8")
+          //- 奔跑的小人
+          circle(cx="50" cy="72" r="5" fill="#9b59b6")
+          line(x1="50" y1="77" x2="52" y2="86" stroke="#9b59b6" stroke-width="2")
+          line(x1="50" y1="80" x2="44" y2="78" stroke="#9b59b6" stroke-width="1.8")
+          line(x1="50" y1="80" x2="57" y2="82" stroke="#9b59b6" stroke-width="1.8")
+          line(x1="52" y1="86" x2="46" y2="93" stroke="#9b59b6" stroke-width="1.8")
+          line(x1="52" y1="86" x2="58" y2="92" stroke="#9b59b6" stroke-width="1.8")
+        span 充電柱
+
     .ui.divider
     router-link.ui.large.green.button(to="/forms") 前往基本形式
       i.chevron.right.icon
