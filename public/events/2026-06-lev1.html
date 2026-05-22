@@ -33,6 +33,16 @@
     padding: 0 18px 80px;
   }
 
+  /* RWD only show fat-only on desktop */
+  span.fat-only {
+    display: none !important;
+  }
+  @media (min-width: 768px) {
+    span.fat-only {
+      display: inline !important;
+    }
+  }
+
   /* ---- Hero ---- */
   .hero {
     background: linear-gradient(160deg, #5c7155 0%, #7b9070 55%, #94a884 100%);
@@ -298,7 +308,7 @@
   <div class="lead">
     <span>🌿 你是否也想在日常之外，給自己一個時間和空間，</span>
     <span>自在地表達自己、聆聽別人？</span>
-    <span style="margin-top:8px;">🎭 今年夏天，一起來體驗 Playback 即興劇場！</span>
+    <span style="margin-top:8px;">🎭 今年夏天<span class="fat-only">，</span>一起<span class="fat-only">來</span>體驗 Playback 即興劇場！</span>
   </div>
 </header>
 
@@ -428,7 +438,7 @@
 
   <section class="card">
     <h2><span class="num">報名</span>報名資訊</h2>
-    <p>填寫下方報名表，即可完成報名程序（會收到確認信）。</p>
+    <p>填寫下方報名表，對帳完畢後，即完成報名程序（會收到確認信）。</p>
     <div class="info-row">
       <span class="tag">活動人數</span>
       <span>4 人成行，12 人額滿。</span>
