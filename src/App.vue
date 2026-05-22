@@ -49,9 +49,9 @@
     router-link.item(to="/core")
       i.suitcase.icon
       | 精華
-    router-link(class="item" to="/act_history")
-      i.redo.icon
-      | 活動回顧
+    //router-link(class="item" to="/act_history")
+    //  i.redo.icon
+    //  | 活動回顧
     //router-link(class="item" to="/book")
     //  i.book.icon
     //  | 相關書籍
@@ -74,9 +74,9 @@
     router-link.item(to="/core")
       i.suitcase.icon
       | 精華
-    router-link(class="item" to="/act_history")
-      i.redo.icon
-      | 活動回顧
+    //router-link(class="item" to="/act_history")
+    //  i.redo.icon
+    //  | 活動回顧
     router-link(class="item" to="/faq")
       i.info.icon
       | 常見問題

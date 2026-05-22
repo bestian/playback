@@ -15,11 +15,11 @@ Vue.use(VueRouter)
     name: 'CoOrganize',
     component: () => import('../views/Co_Organize.vue')
   },
-  {
-    path: '/act_history',
-    name: 'Act_History',
-    component: () => import('../views/Act_History.vue')
-  },
+  // {
+  //   path: '/act_history',
+  //   name: 'Act_History',
+  //   component: () => import('../views/Act_History.vue')
+  // },
   {
     path: '/forms',
     name: 'Forms',
