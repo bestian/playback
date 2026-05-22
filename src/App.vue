@@ -5,9 +5,6 @@
       i.icon.bars
     router-link(class="item" to="/")
       i.home.icon
-    // router-link.item(to="/about_me")
-    //  i.user.icon
-    //  | 關於
     router-link(class="item" to="/warmups")
       i.fire.icon
       span 暖身
@@ -43,9 +40,6 @@
     router-link(class="item" to="/forms")
       i.th.icon
       span 形式
-    //router-link.item(to="/about_me")
-    //  i.user.icon
-    //  | 關於我
     router-link(class="item" to="/courses")
       i.users.icon
       | 課程
@@ -68,9 +62,6 @@
     router-link.item(to='/', exact='', name="home")
       i.home.icon
       | 首頁
-    //router-link.item(to="/about_me")
-    //  i.user.icon
-    //  | 關於我
     router-link(class="item" to="/warmups")
       i.fire.icon
       | 暖身活動

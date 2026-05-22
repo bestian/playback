@@ -66,11 +66,6 @@ Vue.use(VueRouter)
     component: () => import('../views/Courses.vue')
   },
   {
-    path: '/about_me',
-    name: 'About_Me',
-    component: () => import('../views/About.vue')
-  },
-  {
     path: '/core',
     name: 'Core',
     component: () => import('../courses/Core.vue')
