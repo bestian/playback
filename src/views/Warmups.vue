@@ -225,7 +225,7 @@ p.subtitle {
   border-left: 4px solid #16a085;
 
   p.intro {
-    font-size: 15px;
+    font-size: 16px;
     color: #2c3e50;
     margin: 0.5em 0;
     text-align: left;
