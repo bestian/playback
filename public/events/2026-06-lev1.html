@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>【從心出發】2026夏季Playback初階工作坊報名表</title>
+<meta name="description" content="2026夏季Playback即興劇場初階工作坊，6/14、6/21兩堂課，台北劍潭。從暖身、聆聽到共創呈現，給自己一個自在表達的空間。">
+<style>
+  :root {
+    --bg: #f6f1e7;
+    --paper: #fffdf8;
+    --ink: #3a352c;
+    --muted: #6f6757;
+    --sage: #7b9070;
+    --sage-dark: #5c7155;
+    --terra: #c97b54;
+    --terra-dark: #b0623c;
+    --line: #e4dccb;
+    --gold: #d9b25f;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    line-height: 1.85;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 18px 80px;
+  }
+
+  /* ---- Hero ---- */
+  .hero {
+    background: linear-gradient(160deg, #5c7155 0%, #7b9070 55%, #94a884 100%);
+    color: #fffdf8;
+    text-align: center;
+    padding: 54px 22px 46px;
+  }
+  .hero-img {
+    width: 168px;
+    height: 168px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid rgba(255,253,248,0.85);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.28);
+    margin-bottom: 22px;
+  }
+  .hero .kicker {
+    display: inline-block;
+    letter-spacing: 0.32em;
+    font-size: 0.82rem;
+    padding: 5px 16px;
+    border: 1px solid rgba(255,253,248,0.6);
+    border-radius: 999px;
+    margin-bottom: 18px;
+  }
+  .hero h1 {
+    font-size: 1.78rem;
+    font-weight: 800;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+  }
+  .hero .lead {
+    margin-top: 18px;
+    font-size: 1.02rem;
+    color: rgba(255,253,248,0.92);
+  }
+  .hero .lead span { display: block; }
+
+  /* ---- Card sections ---- */
+  .card {
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    padding: 30px 28px;
+    margin-top: 26px;
+    box-shadow: 0 6px 20px rgba(92,113,85,0.07);
+  }
+  .card:first-of-type { margin-top: -36px; position: relative; }
+
+  h2 {
+    font-size: 1.24rem;
+    color: var(--sage-dark);
+    font-weight: 800;
+    margin-bottom: 16px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--line);
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+  }
+  h2 .num {
+    font-size: 0.78rem;
+    background: var(--terra);
+    color: #fff;
+    border-radius: 6px;
+    padding: 3px 9px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+  }
+  h3 {
+    font-size: 1.02rem;
+    color: var(--terra-dark);
+    margin: 18px 0 6px;
+    font-weight: 700;
+  }
+  p { margin: 8px 0; }
+  .muted { color: var(--muted); }
+  strong { color: var(--sage-dark); }
+
+  /* ---- Date highlight ---- */
+  .dates {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin: 6px 0 14px;
+  }
+  .date-chip {
+    flex: 1 1 200px;
+    background: linear-gradient(135deg, #f3efe2, #fbf8ef);
+    border: 1px solid var(--line);
+    border-left: 5px solid var(--sage);
+    border-radius: 10px;
+    padding: 14px 16px;
+  }
+  .date-chip .d { font-size: 1.15rem; font-weight: 800; color: var(--ink); }
+  .date-chip .t { color: var(--muted); font-size: 0.95rem; }
+  .date-chip .label {
+    font-size: 0.75rem; letter-spacing: 0.1em; color: var(--terra-dark);
+    font-weight: 700;
+  }
+
+  ul { padding-left: 1.25em; margin: 8px 0; }
+  li { margin: 5px 0; }
+
+  /* ---- transport ---- */
+  .info-row {
+    display: flex;
+    gap: 12px;
+    padding: 10px 0;
+    border-bottom: 1px dashed var(--line);
+  }
+  .info-row:last-child { border-bottom: none; }
+  .info-row .tag {
+    flex: 0 0 86px;
+    font-weight: 700;
+    color: var(--sage-dark);
+  }
+
+  /* ---- FAQ ---- */
+  .faq-q {
+    background: #f1ede0;
+    border-radius: 10px;
+    padding: 12px 16px;
+    font-weight: 700;
+    color: var(--sage-dark);
+    margin-top: 16px;
+  }
+  .faq-a { padding: 8px 4px 0; }
+
+  /* ---- schedule ---- */
+  .session {
+    margin-top: 16px;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  .session-head {
+    background: var(--sage);
+    color: #fffdf8;
+    padding: 11px 18px;
+    font-weight: 800;
+    letter-spacing: 0.03em;
+  }
+  .session-head .sub { font-weight: 500; opacity: 0.9; font-size: 0.9rem; }
+  .session ol {
+    margin: 0;
+    padding: 14px 18px 14px 38px;
+  }
+  .session ol li { margin: 4px 0; }
+
+  /* ---- fee ---- */
+  .fee-box {
+    text-align: center;
+    background: linear-gradient(135deg, #fbf3e3, #f7ead2);
+    border: 1px solid var(--gold);
+    border-radius: 12px;
+    padding: 22px;
+    margin: 8px 0;
+  }
+  .fee-box .price {
+    font-size: 2.3rem;
+    font-weight: 800;
+    color: var(--terra-dark);
+  }
+  .fee-box .price small { font-size: 1rem; color: var(--muted); }
+
+  .qr-box {
+    text-align: center;
+    background: #fbf8ef;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 20px;
+    margin: 14px 0 4px;
+  }
+  .qr-box img {
+    width: 220px;
+    max-width: 78%;
+    height: auto;
+    border: 6px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(92,113,85,0.18);
+  }
+  .qr-box .qr-cap {
+    margin-top: 12px;
+    color: var(--muted);
+    font-size: 0.92rem;
+  }
+
+  .note-list { counter-reset: n; list-style: none; padding-left: 0; }
+  .note-list li {
+    position: relative;
+    padding-left: 34px;
+    margin: 12px 0;
+  }
+  .note-list li::before {
+    counter-increment: n;
+    content: counter(n);
+    position: absolute;
+    left: 0; top: 2px;
+    width: 24px; height: 24px;
+    background: var(--sage);
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 24px;
+    font-size: 0.85rem;
+    font-weight: 700;
+  }
+
+  .pill {
+    display: inline-block;
+    background: #eef0e6;
+    color: var(--sage-dark);
+    border-radius: 999px;
+    padding: 3px 12px;
+    font-size: 0.88rem;
+    font-weight: 700;
+    margin: 2px 4px 2px 0;
+  }
+
+  /* ---- CTA ---- */
+  .cta {
+    text-align: center;
+    margin-top: 38px;
+  }
+  .cta p { margin-bottom: 16px; }
+  .btn {
+    display: inline-block;
+    background: var(--terra);
+    color: #fffdf8;
+    text-decoration: none;
+    font-size: 1.12rem;
+    font-weight: 800;
+    letter-spacing: 0.05em;
+    padding: 16px 44px;
+    border-radius: 999px;
+    box-shadow: 0 8px 22px rgba(176,98,60,0.35);
+    transition: transform 0.15s ease, background 0.15s ease;
+  }
+  .btn:hover { background: var(--terra-dark); transform: translateY(-2px); }
+
+  footer {
+    text-align: center;
+    color: var(--muted);
+    font-size: 0.85rem;
+    margin-top: 44px;
+  }
+
+  @media (max-width: 540px) {
+    .hero h1 { font-size: 1.42rem; }
+    .card { padding: 24px 18px; }
+    .info-row { flex-direction: column; gap: 2px; }
+    .info-row .tag { flex: none; }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <img class="hero-img" src="../img/炷光2.png" alt="從心出發 Playback 工作坊">
+  <span class="kicker">PLAYBACK THEATRE</span>
+  <h1>【從心出發】<br>2026夏季Playback初階工作坊報名表</h1>
+  <div class="lead">
+    <span>🌿 你是否也想在日常之外，給自己一個時間和空間，</span>
+    <span>自在地表達自己、聆聽別人？</span>
+    <span style="margin-top:8px;">🎭 今年夏天，一起來體驗 Playback 即興劇場！</span>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <section class="card">
+    <h2><span class="num">日期</span>日期與時間</h2>
+    <div class="dates">
+      <div class="date-chip">
+        <div class="label">第一堂</div>
+        <div class="d">2026-06-14（週日）</div>
+        <div class="t">下午 2:00 ~ 5:00</div>
+      </div>
+      <div class="date-chip">
+        <div class="label">第二堂</div>
+        <div class="d">2026-06-21（週日）</div>
+        <div class="t">下午 2:00 ~ 5:00</div>
+      </div>
+    </div>
+    <p class="muted">共兩堂課，合計六小時。因具有連續性，一次報名即是同時報名兩堂課。</p>
+  </section>
+
+  <section class="card">
+    <h2><span class="num">地點</span>活動地點</h2>
+    <p><strong>小船254號潛水艇計畫排練場</strong><br>
+    台北市士林區福港街254號 B1（近劍潭捷運站）</p>
+    <div class="info-row">
+      <span class="tag">🚗 汽機車</span>
+      <span>最近的停車場為「前港公園地下停車場」，走路 10 分鐘可達。</span>
+    </div>
+    <div class="info-row">
+      <span class="tag">🚇 大眾運輸</span>
+      <span>捷運「淡水線」坐到「劍潭」後，步行 13 分鐘可達。</span>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2><span class="num">簡介</span>工作坊簡介</h2>
+    <p>Playback（英文：Playback Theatre）是一種即興的互動式劇場，其演出並無預定的劇本，透過參與者口述的親身經驗，自願分享的心情和故事，在主持人的引導下，用即興有結構的表演形式，將故事呈現出來，並把演出回送給說故事的人和所有參與者。</p>
+    <p>初階工作坊會先以暖身遊戲探索肢體、聲音、動作等表達，接著引入聆聽與同理、並學習 Playback 形式的共創呈現。</p>
+  </section>
+
+  <section class="card">
+    <h2><span class="num">FAQ</span>常見問題</h2>
+
+    <div class="faq-q">Q：Playback 用來做什麼？有什麼功用？或只是好玩？萬一臨場接不上話怎麼辦？</div>
+    <div class="faq-a">
+      <p>A：Playback 的字面意義就是「回放」：聆聽之後像鏡子一樣反映出說故事的人的心情與內心狀態，表達說得出口的故事與還沒說出口的內心感受與內心波瀾。</p>
+      <p>當我們在聆聽時，先回歸「黏土」的中立狀態，時間和空間會形成一個「場」，大家都不是用頭腦的思考，而是像杯子一樣，注入了說故事的人表達的內容和情感之後，自然會流動而有所產出，這過程很神奇，要體驗過才明白，即使一開始因為緊張卡住、「接不上話」，在安全的空間和團體中，也不必擔心自己做不好。</p>
+    </div>
+
+    <div class="faq-q">Q：Playback 初階工作坊是為了培養專業的劇場演員嗎？</div>
+    <div class="faq-a">
+      <p>A：不是，我們是透過即興劇場的練習，增進日常聆聽、同理與表達的能力，並非以培養專業劇場演員為目標。</p>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2><span class="num">流程</span>活動流程</h2>
+    <p class="muted">依實際流動彈性調整</p>
+
+    <div class="session">
+      <div class="session-head">第一堂　<span class="sub">06/14（週日）下午 2:00 ~ 5:00</span></div>
+      <ol>
+        <li>引言與界限</li>
+        <li>暖身活動：0~10</li>
+        <li>暖身活動：放與收</li>
+        <li>暖身活動：誇張與縮小</li>
+        <li>引入活動：鏡像引導</li>
+        <li>引入活動：輪流雕塑</li>
+        <li>印地安羽毛</li>
+        <li>形式示範：流動塑像</li>
+        <li>Playback 即興展演</li>
+        <li>即景：我聽見⋯⋯</li>
+        <li>印地安羽毛</li>
+      </ol>
+    </div>
+
+    <div class="session">
+      <div class="session-head">第二堂　<span class="sub">06/21（週日）下午 2:00 ~ 5:00</span></div>
+      <ol>
+        <li>暖身活動：放與收</li>
+        <li>暖身活動：誇張與縮小</li>
+        <li>引入活動：輪流雕塑</li>
+        <li>引入活動：對比雕塑</li>
+        <li>印地安羽毛</li>
+        <li>形式示範：一對對</li>
+        <li>Playback 即興展演</li>
+        <li>即景：我聽見⋯⋯</li>
+        <li>印地安羽毛</li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2><span class="num">主帶</span>主辦人</h2>
+    <p><strong>小巴老師</strong></p>
+    <p class="muted">經歷：聆聽學習社成員、政治大學實驗教育中心師培課程 Playback 助教、「從心出發」系列 Playback 主帶。</p>
+  </section>
+
+  <section class="card">
+    <h2><span class="num">費用</span>工作坊費用</h2>
+    <div class="fee-box">
+      <div class="price">NT$ 1,500 <small>／本期初階（兩堂課）</small></div>
+    </div>
+
+    <h3>繳費方式（可選）</h3>
+    <ol>
+      <li>以悠遊付 QR 掃碼繳費（悠遊付或其他支付 App），先繳費再送出報名表。</li>
+      <li>以轉帳方式繳費，先填報名表，再提供帳號給您。</li>
+    </ol>
+
+    <div class="qr-box">
+      <img src="../img/1500.jpg" alt="工作坊費用 1500 元繳費 QR Code">
+      <div class="qr-cap">📱 開啟悠遊付或其他支付 App 掃碼繳費（NT$ 1,500）</div>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2><span class="num">準備</span>需要帶什麼？</h2>
+    <ul>
+      <li>帶著一顆開放的心，穿著適合運動的衣褲。</li>
+      <li>彈性帶 1~2 個自己喜歡的小樂器，最好是單純一些、方便隨身攜帶的：
+        <div style="margin-top:6px;">
+          <span class="pill">小鼓</span><span class="pill">沙鈴</span><span class="pill">缽</span><span class="pill">鐵琴</span>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2><span class="num">報名</span>報名資訊</h2>
+    <p>填寫本表，即可完成報名程序（會收到確認信）。</p>
+    <div class="info-row">
+      <span class="tag">活動人數</span>
+      <span>4 人成行，12 人額滿。</span>
+    </div>
+    <div class="info-row">
+      <span class="tag">報名時程</span>
+      <span>即日起至 <strong>06/08</strong> 止。</span>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2><span class="num">注意</span>注意事項</h2>
+    <ol class="note-list">
+      <li>此梯為成人成長工作坊。若有小孩需要照顧，請自行安排未參與本工作坊之親友照看。（1F 店面空間有閱讀區，低消後可使用）</li>
+      <li>請吃過午餐再來，適量就好，以利身體活動。結束後亦可在小船254號 1F 餐飲空間用餐。</li>
+    </ol>
+  </section>
+
+  <div class="cta">
+    <p class="muted">準備好了嗎？點下方按鈕填寫報名表 👇</p>
+    <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSd_fOp_kMRuU44Yg3GNB-iG9YcbPHq3cfcLm1Otlb1LLeaSmg/viewform?usp=dialog" target="_blank" rel="noopener">前往報名表</a>
+  </div>
+
+  <footer>
+    <p>【從心出發】2026夏季 Playback 初階工作坊</p>
+  </footer>
+
+</div>
+</body>
+</html>
