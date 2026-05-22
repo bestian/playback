@@ -73,7 +73,7 @@
 
       router-link.form-card(to="/warmup/hypnosis")
         svg(viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg")
-          //- 哥倫比亞催眠術：手引導臉
+          //- 鏡像引導：手引導臉
           circle(cx="65" cy="45" r="14" fill="#3498db")
           circle(cx="60" cy="42" r="2" fill="white")
           circle(cx="70" cy="42" r="2" fill="white")
@@ -81,7 +81,7 @@
           path(d="M25 35 L25 55 M20 38 L25 35 L30 38" fill="none" stroke="#2980b9" stroke-width="3" stroke-linecap="round")
           line(x1="30" y1="45" x2="48" y2="45" stroke="#2980b9" stroke-width="1.5" stroke-dasharray="4,3")
           path(d="M38 65 Q50 58 62 65" fill="none" stroke="#3498db" stroke-width="1.5" opacity="0.5")
-        span 哥倫比亞催眠術
+        span 鏡像引導
 
       router-link.form-card(to="/warmup/chair")
         svg(viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg")
