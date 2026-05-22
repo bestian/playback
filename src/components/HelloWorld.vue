@@ -3,7 +3,7 @@
   .ui.segment.container
     h2.ui.header
       span.fat-only 您好，歡迎來到
-      span 【鏡照工坊】即興劇場
+      span 即興劇場
       br
       span 說故事、聽故事、演故事
 
@@ -43,7 +43,7 @@
 
     .ui.divider
 
-    h2.ui.header 【鏡照工坊】Playback即興劇場聯絡表
+    h2.ui.header Playback即興劇場聯絡表
     iframe(
       src="https://docs.google.com/forms/d/e/1FAIpQLSddDqm40ruSCkr0w_4DIcWBnn2SQrAqxmvYKnOsgfvUOUDhwA/viewform?usp=sharing&ouid=109123650148645242011&embedded=true"
       width="100%"
