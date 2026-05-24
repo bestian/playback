@@ -31,6 +31,8 @@ export const announces = [
     //    h: 'https://forms.gle/yquAWnrjzB1nuvys9'}
 //  {date: '2024-07-31', text: '八月工作坊已確認成行，延長報名至08/06', h: 'https://forms.gle/6yQVzVvWew6vQ1eH8'},
 //  {date: '2024-07-18', text: '八月工作坊籌備中：有興趣的朋友請先空出08/08, 08/22上午時段'},
-
-
+    {date: '2026-05-24', 
+        text: '六月【從心出發】Playback初階工作坊06/14, 06/21開放報名中(06/08截止)',
+        h: 'https://playback.bestian.tw/events/2026-06-lev1.html',
+    }
 ]

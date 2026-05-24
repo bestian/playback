@@ -12,7 +12,7 @@
         | 可歌，是因為有力量；可泣，是因為有磨難。
         br
         | 聆聽彼此，面對真實，專注當下，生命便會成長」-- 小巴
-      cards
+      
     h2.ui.header(v-show="announces && announces.length > 0") 最新消息
     p.announce(v-for="(a, idx) in announces")
       a(v-if="a.h", :href="a.h", target="_blank", rel="noopener norefferer", @click="trackEvent('external_link', a.h)") {{a.date}}：
@@ -21,6 +21,9 @@
         b {{ a.text }} 
       span(v-else)  {{a.date}}：
         b {{ a.text }} 
+
+    h2.ui.header
+      cards
     .ui.vertical.buttons
       router-link.ui.large.orange.button(to="/warmups", @click="trackEvent('internal_link', '/warmups')") 暖身活動
       router-link.ui.large.pink.button(to="/forms", @click="trackEvent('internal_link', '/forms')") 基本形式
