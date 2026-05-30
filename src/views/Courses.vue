@@ -3,13 +3,13 @@
   h1.ui.header 課程
     .sub.header.text-left.padded
       br
-      | 我想像中的Playback練習，分為三個階段：
+      | 在本架構中的Playback練習，分為三個階段：
       br
-      | 一階是入門體驗聆聽和即興的肢體表達；
+      | 一階主旨：開展專注聆聽、回理回饋及全肢體表達的潛能。
       br
-      | 二階是學習五種基本的Playback形式；
+      | 二階主旨：活用四元素：肢體、色彩、音樂、詩，並深化同理與回饋的深度。
       br
-      | 三階是主持人技巧與態度。
+      | 三階主旨：提升擔任主持人的技巧與態度，增進帶領整體流動的能力。
       br
   .ui.four.doubling.stackable.cards.container
     .ui.card
