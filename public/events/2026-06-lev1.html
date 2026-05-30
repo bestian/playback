@@ -49,6 +49,16 @@
     }
   }
 
+  /* RWD only show thin-only on mobile */
+  br.thin-only {
+    display: none ;
+  }
+  @media (max-width: 768px) {
+    br.thin-only {
+      display: inline !important;
+    }
+  }
+
   /* ---- Hero ---- */
   .hero {
     position: relative;
@@ -240,11 +250,11 @@
     letter-spacing: 0.03em;
   }
   .session-head .sub { font-weight: 500; opacity: 0.9; font-size: 0.9rem; }
-  .session ol {
+  .session ol, .session ul {
     margin: 0;
     padding: 14px 18px 14px 38px;
   }
-  .session ol li { margin: 4px 0; }
+  .session ol li, .session ul li { margin: 4px 0; }
 
   /* ---- fee ---- */
   .fee-box {
@@ -458,6 +468,13 @@
         <li>即景：我聽見⋯⋯</li>
         <li>印地安羽毛</li>
       </ol>
+    </div>
+
+    <div class="session">
+      <div class="session-head">後續延伸　<br/><span class="sub">本工作坊結業後，<br class="thin-only"/>可受邀體驗聆聽學習社每月聚會<br class="thin-only"/>(能否長期參與需由社團決定)，<br class="thin-only"/><br/>並取得參加二階工作坊之資格。</span></div>
+      <ul>
+        <li>詳見<a href="https://playback.bestian.tw/courses" target="_blank" rel="noopener">課程介紹</a></li>
+      </ul>
     </div>
   </section>
 
