@@ -100,6 +100,21 @@
     stroke-linecap: round;
     stroke-linejoin: round;
   }
+  .closed-ribbon {
+    position: absolute;
+    top: 24px;
+    left: -52px;
+    z-index: 2;
+    width: 210px;
+    padding: 8px 0;
+    transform: rotate(-38deg);
+    background: linear-gradient(135deg, #d8392f, #a91f18);
+    color: #fffdf8;
+    font-weight: 900;
+    letter-spacing: 0.14em;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.28);
+  }
   .hero-img {
     width: 168px;
     height: 168px;
@@ -355,6 +370,12 @@
   }
 
   @media (max-width: 540px) {
+    .closed-ribbon {
+      top: 18px;
+      left: -58px;
+      width: 200px;
+      font-size: 0.9rem;
+    }
     .hero h1 { font-size: 1.42rem; }
     .card { padding: 24px 18px; }
     .info-row { flex-direction: column; gap: 2px; }
@@ -365,6 +386,7 @@
 <body>
 
 <header class="hero">
+  <div class="closed-ribbon" aria-label="報名已截止">報名已截止</div>
   <button id="shareBtn" class="share-btn" type="button" aria-label="分享此頁">
     <svg viewBox="0 0 24 24" aria-hidden="true">
       <path d="M18 8a3 3 0 1 0-2.83-4H15a3 3 0 0 0 .17.96L7.9 9.23A3 3 0 0 0 6 8.5a3 3 0 1 0 1.9 5.27l7.27 4.27A3 3 0 0 0 15 19a3 3 0 1 0 3-3c-.69 0-1.33.23-1.83.62L8.9 12.35A2.98 2.98 0 0 0 9 11c0-.47-.11-.92-.29-1.32l7.26-4.27c.52.37 1.15.59 1.83.59Z"></path>
